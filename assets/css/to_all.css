@@ -191,7 +191,7 @@ ul a:hover::after {
 
 @media only screen and (max-width: 600px) {
 .nav {
-  width: 15em;
+  width: 15.5em;
 }
 
 .card {
