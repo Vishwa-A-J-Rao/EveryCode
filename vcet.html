@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EveryCode</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/css/mdb.min.css'>
+    <!-- EXTRAA-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/to_all.css">
+
+</head>
+
+<body>
+
+    <ul class="navigationbar">
+        <li class="try"><a href="/index.html"
+                style="color: #FEE715FF; font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif;">EveryCode</a>
+        </li>
+        <li class="try"><a href="python.html">Python</a></li>
+        <li class="try"><a href="#">Java</a></li>
+        <li class="try"><a href="#">C</a></li>
+        <li class="try"><a href="#">C++</a></li>
+        <li class="try"><a href="#">Verilog</a></li>
+        <li class="try"><a href="#" style="color: #FEE715FF;">VCET</a></li>
+    </ul>
+    <div class="row p-5">
+        <div class="ab">
+            <div class="col-md mb-3">
+                <ul class="nav nav-pills flex-column" id="experienceTab" role="tablist">
+                    
+                        
+                        <li class="allprograms">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#yearone" role="tab"
+                                aria-controls="home" aria-selected="true">1st Year</a>
+                        </li>
+                        <li class="allprograms">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#yeartwo" role="tab"
+                                aria-controls="profile" aria-selected="false">2nd Year</a>
+                        </li>
+                        <li class="allprograms">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#yearthree" role="tab"
+                                aria-controls="profile" aria-selected="false">3rd Year</a>
+                        </li>
+                        <li class="allprograms">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#ec" role="tab"
+                                aria-controls="profile" aria-selected="false">EC</a>
+                        </li>
+                        <li class="allprograms">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#dsp" role="tab"
+                                aria-controls="profile" aria-selected="false">DSP</a>
+                        </li>
+                        <li class="allprograms">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#yearfour" role="tab"
+                                aria-controls="profile" aria-selected="false">4th Year</a>
+                        
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        <div class="abc">
+            <div class="col-md-10">
+                <div class="tab-content" id="experienceTabContent">
+
+                    <div class="tab-pane fade show active text-left text-light" id="yearone" role="tabpanel"
+                        aria-labelledby="home-tab">
+                        <h3 class="none">1st Year Lab Programmes</h3>
+                        <span class="date-range code-font">All The Programming Codes</span>
+                        <ul class="none">
+                            <p class="none">
+                                Need To Fill
+                            <p>
+                        </ul>
+                    </div>
+
+                    <div class="tab-pane fade text-left text-light" id="yeartwo" role="tabpanel"
+                        aria-labelledby="profile-tab">
+                        <h3 class="none">2nd Year Lab Programmes</h3>
+                        <span class="date-range code-font">All Lab Programmes</span>
+                        <ul class="none">
+                            <p class="none">
+                                Need To Fill
+                            <p>
+                        </ul>
+                    </div>
+
+                    <div class="tab-pane fade text-left text-light" id="yearthree" role="tabpanel"
+                        aria-labelledby="profile-tab">
+                        <h3 class="none">3rd Year Lab Programmes</h3>
+                        <span class="date-range code-font">Lab Programmes for DSP Lab (python) and Verilog HDL</span>
+                        <ul class="none">
+                            <p class="none">
+                                Here You Can Get All The Lab Programme Codes
+                            <p>
+                        </ul>
+                    </div>
+
+                    <div class="tab-pane fade text-left text-light" id="ec" role="tabpanel"
+                        aria-labelledby="profile-tab">
+                        <h3 class="none">DSP and VHDL</h3>
+                        <span class="date-range code-font">Lab Programmes for DSP Lab (python) and Verilog HDL</span>
+                        <ul class="none">
+                            <p class="none">
+                                Here You Can Get All The Lab Programme Codes
+                            <p>
+                        </ul>
+                    </div>
+
+                    <div class="tab-pane fade text-left text-light" id="dsp" role="tabpanel"
+                        aria-labelledby="profile-tab">
+                        <h3 class="none">DSP Programmes</h3>
+                        <span class="date-range code-font">Lab Programmes for DSP Lab</span>
+                        <ul class="none">
+                            <p class="none" style="font-size: 1.2em;">
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                                            1. Verification of sampling theorem (use interpolation function).
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                import numpy as np<br>
+                                                import matplotlib.pyplot as plt<br>
+                                                from math import pi,sin,cos<br>
+                                                fm=5<br>
+                                                fs=8<br>
+                                                T=1/fs<br>
+                                                t2=0.001<br>
+                                                ##constructing analog signal<br>
+                                                t = [i for i in np.arange(0,1,0.001)]<br>
+                                                xt = [cos(2*pi*fm*i) for i in np.arange(0,1,0.001)]<br>
+
+                                                ##constructing descrete signal<br>
+                                                n=[i for i in range(fs)]<br>
+                                                xn= [cos(2*pi*(fm/fs)*i) for i in range(fs)]<br>
+
+                                                ##to find final equation<br>
+                                                xr=np.zeros((1000))<br>
+                                                for i in range(1000):<br>
+                                                for j in range(fs):<br>
+                                                xr[i]=xr[i]+xn[j]*(sin((pi/T)*(t2-j*T))/((pi/T)*(t2-j*T)))<br>
+                                                t2=t2+0.001<br>
+
+                                                ##to plot the graph<br>
+                                                plt.subplot(3,1,1)<br>
+                                                plt.plot(t,xt)<br>
+                                                plt.subplot(3,1,2)<br>
+                                                plt.stem(n,xn)<br>
+                                                plt.subplot(3,1,3)<br>
+                                                plt.plot(t,xr)<br>
+                                                plt.show()
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!--div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#collapsetwo">
+                                               name
+                                            </a>
+                                        </div>
+                                        <div id="collapsetwo" class="collapse" data-bs-parent="#accordion">
+                                            <div class="card-body">
+                                                <p>
+                                                   code
+                                                </p>
+                                            </div>
+                                        </div-->
+                                    <div class="card-header">
+                                        <a class="btn" data-bs-toggle="collapse" href="#collapsetwo">
+                                            2. Linear and circular convolution of two given sequences, Commutative,
+                                            distributive and associative property of convolution.
+                                        </a>
+                                    </div>
+                                    <div id="collapsetwo" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                import numpy as np<br>
+                                                from operator import mod<br>
+                                                def comp_array(l,r):<br>
+                                                N=len(l)<br>
+                                                count=0<br>
+                                                for i in range(N):<br>
+                                                if(l[i]==r[i]):<br>
+                                                count+=1<br>
+                                                if(count==N):<br>
+                                                return True<br>
+                                                else:<br>
+                                                return False<br>
+
+                                                def lc(x,h):<br>
+                                                m=len(x)<br>
+                                                n=len(h)<br>
+                                                N=m+n-1<br>
+                                                y=np.zeros((N))<br>
+                                                x=list(x)<br>
+                                                h=list(h)<br>
+                                                x=x+[0]*(N-m)<br>
+                                                h=h+[0]*(N-n)<br>
+                                                for n in range(N):<br>
+                                                for k in range(n+1):<br>
+                                                y[n]=y[n]+x[k]*h[n-k]<br>
+                                                return y<br>
+
+                                                def circ_conv(x,h):<br>
+                                                N=len(x)<br>
+                                                y=np.zeros(N)<br>
+                                                for i in range (N):<br>
+                                                for j in range (N):<br>
+                                                y[i]=y[i]+x[j]*h[mod((i-j),N)]<br>
+                                                return y<br>
+
+                                                def flip(x):<br>
+                                                N=len(x)
+                                                y=np.zeros(N)<br>
+                                                for i in range (N):<br>
+                                                y[i]=x[N-1-i]<br>
+                                                return y<br>
+
+                                                a=[1,2,3]<br>
+                                                b=[1,1,1]<br>
+                                                c=[5,6,7]<br>
+                                                a=np.array(a)<br>
+                                                b=np.array(b)<br>
+                                                c=np.array(c)<br>
+                                                print("a=",a)<br>
+                                                print("b=",b)<br>
+                                                print("c=",c)<br>
+                                                print()<br>
+                                                print("Commutative Property:")<br>
+                                                lhs=lc(a,b)<br>
+                                                print("LHS=",lhs)<br>
+                                                rhs=lc(b,a)<br>
+                                                print("RHS=",rhs)<br>
+                                                if comp_array(lhs,rhs):<br>
+                                                print("LHS=RHS, Commutative Property Is Satisfied")<br>
+                                                else:<br>
+                                                print("Its not")<br>
+                                                print()<br>
+                                                print("Associative Property:")<br>
+                                                lhs1=lc(lc(a,b),c)<br>
+                                                print("LHS=",lhs1)<br>
+                                                rhs1=lc(a,lc(b,c))<br>
+                                                print("RHS=",rhs1)<br>
+                                                if comp_array(lhs1,rhs1):<br>
+                                                print("LHS=RHS, Associative Property Is Satisfied")<br>
+                                                else:<br>
+                                                print("Its not")<br>
+                                                print()<br>
+                                                print("Distributive Property:")<br>
+                                                lhs2=lc(a,b+c)<br>
+                                                print("LHS=",lhs2)<br>
+                                                rhs2=lc(a,b)+lc(a,c)<br>
+                                                print("RHS=",rhs2)<br>
+                                                if comp_array(lhs2,rhs2):<br>
+                                                print("LHS=RHS, Distributive Property Is Satisfied")<br>
+                                                else:<br>
+                                                print("Its not")<br>
+                                                print()<br>
+                                                x3=circ_conv(a,b)<br>
+                                                print("Circular Convolution is:",x3)
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-header">
+                                        <a class="btn" data-bs-toggle="collapse" href="#collapsethree">
+                                            3. Auto and cross correlation of two sequences and verification of their
+                                            properties.
+                                        </a>
+                                    </div>
+                                    <div id="collapsethree" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                import numpy as np<br>
+                                                import matplotlib.pyplot as plt<br>
+                                                def lc(x,h):<br>
+                                                m=len(x)<br>
+                                                n=len(h)<br>
+                                                N=m+n-1<br>
+                                                y=np.zeros((N))<br>
+                                                x=list(x)<br>
+                                                h=list(h)<br>
+                                                x=x+[0]*(N-m)<br>
+                                                h=h+[0]*(N-n)<br>
+                                                for n in range(N):<br>
+                                                for k in range(n+1):<br>
+                                                y[n]=y[n]+x[k]*h[n-k]<br>
+                                                return y<br>
+                                                def flip(x):<br>
+                                                N=len(x)
+                                                y=np.zeros(N)<br>
+                                                for i in range (N):<br>
+                                                y[i]=x[N-1-i]<br>
+                                                return y<br>
+                                                x=[1,2,3]<br>
+                                                x1=[3,2,1]<br>
+                                                x=np.array(x)<br>
+                                                x1=np.array(x1)<br>
+                                                z=flip(x)<br>
+                                                y=lc(x,z)<br>
+                                                N=len(y)<br>
+                                                print("Input:",x)<br>
+                                                ##for autocorrelation<br>
+                                                print("Auto Correlation:",y)<br>
+                                                print("Auto Correlation Funtion Is Symmetric about n=0")<br>
+                                                ##<br>
+                                                n=[i for i in np.arange(np.ceil(-N/2),np.floor(N/2)+1)]<br>
+                                                e=np.sort(y)<br>
+                                                ene=e[N-1]<br>
+                                                print("Enery Of Auto Correlation Function Is:",ene)<br>
+                                                ##for cross correlation<br>
+                                                y1=lc(x,flip(x1))<br>
+                                                print("Cross Correlatio<br>n:",y1)
+                                                print("Cross Correlation Funtion Is Not Symmetric")<br>
+                                                ##<br>
+                                                plt.subplot(2,1,1)<br>
+                                                plt.stem(n,y)<br>
+                                                plt.title("Auto_Correlation")<br>
+                                                plt.xlabel("n-->")<br>
+                                                plt.ylabel("y[n]-->")<br>
+                                                plt.subplot(2,1,2)<br>
+                                                plt.stem(n,y1)<br>
+                                                plt.title("Cross_Correlation")<br>
+                                                plt.xlabel("n-->")<br>
+                                                plt.ylabel("y[n]-->")<br>
+                                                plt.show()
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-header">
+                                        <a class="btn" data-bs-toggle="collapse" href="#collapsefour">
+                                            4. Solving a given difference equation.
+                                        </a>
+                                    </div>
+                                    <div id="collapsefour" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                import numpy as np<br>
+                                                def filter(b,a,x):<br>
+                                                N=len(x)<br>
+                                                b=list(b)+[0]*(N-len(b))<br>
+                                                a=list(a)+[0]*(N-len(a))<br>
+                                                y=np.zeros((N))<br>
+                                                for n in range (N):<br>
+                                                term1=0<br>
+                                                term2=0<br>
+                                                for k in range (n+1):<br>
+                                                term1=term1-a[k]*y[n-k]<br>
+                                                term2=term2+b[k]*x[n-k]<br>
+                                                y[n]=term1+term2<br>
+                                                return y<br>
+
+                                                a=np.array([1,-4,3])<br>
+                                                b=np.array([1,2])<br>
+                                                x=np.array([1,2,3])<br>
+                                                y=filter(b,a,x)<br>
+                                                print("a=",a)<br>
+                                                print("b=",b)<br>
+                                                print("x=",x)<br>
+                                                print("Differential Equation Y=",y)
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-header">
+                                        <a class="btn" data-bs-toggle="collapse" href="#collapsefive">
+                                            5. Computation of N point DFT of a given sequence and to plot magnitude and
+                                            phase spectrum.
+                                        </a>
+                                    </div>
+                                    <div id="collapsefive" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                import numpy as np<br>
+                                                import matplotlib.pyplot as plt<br>
+                                                from cmath import pi,exp<br>
+                                                x = [1,2,3,4]<br>
+                                                N = len(x)-2<br>
+                                                def fft(x):<br>
+                                                N = len(x)<br>
+                                                X = np.zeros((N),complex)<br>
+                                                for k in range (N):<br>
+                                                for n in range (N):<br>
+                                                X[k] = X[k]+x[n]*exp(-1j*2*pi*k*n/N)<br>
+                                                return X<br>
+                                                x = np.array([1,2,3,4])<br>
+                                                print("Input Sequence=",x)<br>
+                                                X=fft(x)<br>
+                                                print("DFT using equation Xk=",X)<br>
+                                                X1=np.fft.fft(x)<br>
+                                                plt.subplot(4,1,1)<br>
+                                                plt.title("magnitude")<br>
+                                                plt.xlabel("k-->")<br>
+                                                plt.ylabel("|X(k|-->")<br>
+                                                plt.stem(range(N),np.abs(X))<br>
+                                                plt.subplot(4,1,2)<br>
+                                                plt.title("angle")<br>
+                                                plt.xlabel("k-->")<br>
+                                                plt.ylabel("<X(k)-->")<br>
+                                                    plt.stem(range(N),np.angle(X))<br>
+                                                    plt.subplot(4,1,3)<br>
+                                                    plt.title("magnitude")<br>
+                                                    plt.xlabel("k-->")<br>
+                                                    plt.ylabel("|X(k|-->")<br>
+                                                    plt.stem(range(N),np.abs(X1))<br>
+                                                    plt.subplot(4,1,4)<br>
+                                                    plt.title("angle")<br>
+                                                    plt.xlabel("k-->")<br>
+                                                    plt.ylabel("<X(k)-->")<br>
+                                                        plt.stem(range(N),np.angle(X1))<br>
+                                                        plt.show()
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-header">
+                                        <a class="btn" data-bs-toggle="collapse" href="#collapsesix">
+                                            6. Verify DFT properties, DFT of square pulse and sinc function.
+                                        </a>
+                                    </div>
+                                    <div id="collapsesix" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                writeeeeeeeeeeeeeeee
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-header">
+                                        <a class="btn" data-bs-toggle="collapse" href="#collapseseven">
+                                            7. Design and implementation of Low pass and High pass FIR filter
+                                        </a>
+                                    </div>
+                                    <div id="collapseseven" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                Find A Plan
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-header">
+                                        <a class="btn" data-bs-toggle="collapse" href="#collapseeight">
+                                            8. Design and implementation of a digital IIR filter
+                                        </a>
+                                    </div>
+                                    <div id="collapseeight" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                code
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-header">
+                                        <a class="btn" data-bs-toggle="collapse" href="#collapsenine">
+                                            9. Obtain the Linear convolution of two sequences.
+                                        </a>
+                                    </div>
+                                    <div id="collapsenine" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                code
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-header">
+                                        <a class="btn" data-bs-toggle="collapse" href="#collapseten">
+                                            10. Compute Circular convolution of two sequences.
+                                        </a>
+                                    </div>
+                                    <div id="collapseten" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                code
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-header">
+                                        <a class="btn" data-bs-toggle="collapse" href="#collapseeleven">
+                                            11. Compute the N-point DFT of a given sequence.
+                                        </a>
+                                    </div>
+                                    <div id="collapseeleven" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                code
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-header">
+                                        <a class="btn" data-bs-toggle="collapse" href="#collapsetwelve">
+                                            12. Determine the Impulse response of first order and second order system.
+                                        </a>
+                                    </div>
+                                    <div id="collapsetwelve" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                code
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-header">
+                                        <a class="btn" data-bs-toggle="collapse" href="#collapsethirteen">
+                                            13. Generation of Sine wave and standard test signals.
+                                        </a>
+                                    </div>
+                                    <div id="collapsethirteen" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                code
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <p>
+                        </ul>
+                    </div>
+
+                    <div class="tab-pane fade text-left text-light" id="one" role="tabpanel"
+                        aria-labelledby="profile-tab">
+                        <h3 class="none">Verification Of Sampling Theorem</h3>
+                        <span class="date-range code-font">Sampling theorem states that band limited signal f(t) can
+                            be reconstructed from its samples if the sampling frequency is greater than the two
+                            times the highest frequency component of the signal. i.e fs>=2fm
+                        </span>
+                        <ul class="none">
+                            <p class="none">
+
+
+                            </p>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- js -->
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/js/mdb.min.js'></script>
+</body>
+
+</html>
