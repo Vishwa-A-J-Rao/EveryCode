@@ -20,7 +20,7 @@
                 style="color: white; font-weight: bold; font-size: 1.5em; padding:0 2em 0 2em;">Every<span
                     style="color: rgb(78, 78, 212);">Code</span></a>
         </li>
-        <li class=" try"><a href="python.html" style="color: #FEE715FF;">Python</a></li>
+        <li class=" try"><a href="python.html" style="color: #00A97F; font-weight: bold;">Python</a></li>
         <li class="try"><a href="#">Java</a></li>
         <li class="try"><a href="#">C</a></li>
         <li class="try"><a href="#">C++</a></li>
@@ -118,33 +118,37 @@
                         <ul class="none">
                             <li class="forcode">
                                 <span>Addition:</span>
-                                <pre>
+                                <pre id="addition">
 x = input("Type a number: ")
 y = input("Type another number: ")
 sum = int(x) + int(y)
-print("The sum is: ", sum)
-                                </pre>
-                                <span><br>Subtraction:</span>
-                                <pre>
+print("The sum is: ", sum)</pre>
+                                <button class="butt"
+                                    onclick="copytext(document.querySelectorAll('#addition')[0].textContent)">Copy</button>
+                                <span><br><br>Subtraction:</span>
+                                <pre id="subtraction">
 x = input("Type a number: ")
 y = input("Type another number: ")
 difference = int(x) - int(y)
-print("The difference is: ", difference)
-                                </pre>
-                                <span><br>Multiplication:</span>
-                                <pre>
+print("The difference is: ", difference)</pre>
+                                <button class="butt"
+                                    onclick="copytext(document.querySelectorAll('#subtraction')[0].textContent)">Copy</button>
+                                <span><br><br>Multiplication:</span>
+                                <pre id="multiplication">
 x = input("Type a number: ")
 y = input("Type another number: ")
 product = int(x) * int(y)
-print("The product is: ", product)
-                                </pre>
-                                <span><br>Multiplication:</span>
-                                <pre>
+print("The product is: ", product)</pre>
+                                <button class="butt"
+                                    onclick="copytext(document.querySelectorAll('#multiplication')[0].textContent)">Copy</button>
+                                <span><br><br>Division:</span>
+                                <pre id="division">
 x = input("Type a number: ")
 y = input("Type another number: ")
 div = int(x) / int(y)
-print("The div is: ", div)
-                                </pre>
+print("The div is: ", div)</pre>
+                                <button class="butt"
+                                    onclick="copytext(document.querySelectorAll('#divison')[0].textContent)">Copy</button>
                             </li>
 
                         </ul>
@@ -154,6 +158,21 @@ print("The div is: ", div)
         </div>
     </div>
     <!-- js -->
+    <script>
+        function copytext(copyText) {
+            const textArea = document.createElement('textarea');
+            textArea.style.position = "absolute";
+            // to prevent scrolling on IE/Safari, place the element beside us... (not a perfect solution)
+            textArea.style.top = "" + ((document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop) + "px";
+            textArea.style.left = "-100%";
+            textArea.textContent = copyText.trim();
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand("copy");
+            // Consider: visually indicate success... (see example below)
+            textArea.parentNode.removeChild(textArea);
+        }
+    </script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/js/mdb.min.js'></script>
