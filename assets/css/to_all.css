@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 :root {
-  --theme-yellow: #FEE715FF;
+  --theme-yellow: #00A97F;
   --theme-black: #101820FF;
   --theme-gray: #8892B0;
 
@@ -39,7 +39,7 @@ pre {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #FEE715FF;
+  background: #00A97F;
   border-radius: 10px;
 }
 
@@ -213,7 +213,7 @@ ul li.try a+a {
   bottom: 0px;
   width: 100%;
   height: 4px;
-  background-color: #FEE715FF;
+  background-color: #00A97F;
   transform-origin: bottom right;
   transition: transform 0.5s ease;
   transform: scaleX(0);
@@ -224,9 +224,72 @@ ul a:hover::after {
   transform: scaleX(1);
 }
 
+/* From cssbuttons.io by @nikk7007 */
+.butt {
+  --color: #00A97F;
+  --color2: rgb(10, 25, 30);
+  background-color: transparent;
+  border-radius: 6px;
+  border: .3px solid var(--color);
+  transition: .5s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+  font-weight: 300;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: var(--color);
+  width: 5em;
+  height: 2em;
+  margin-top: -50em;
+}
+
+.butt::after, .butt::before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform: skew(90deg) translate(-50%, -50%);
+  position: absolute;
+  inset: 50%;
+  left: 25%;
+  z-index: -1;
+  transition: .5s ease-out;
+  background-color: var(--color);
+}
+
+.butt::before {
+  top: -50%;
+  left: -25%;
+  transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.butt:hover::before {
+  transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.butt:hover::after {
+  transform: skew(45deg) translate(-50%, -50%);
+}
+
+.butt:hover {
+  color: var(--color2);
+}
+
+.butt:active {
+  filter: brightness(.7);
+  transform: scale(.98);
+}
+
+.btn:hover {
+  color: #00A97F;
+}
+
 @media only screen and (max-width: 600px) {
   .nav {
-    width: 15.5em;
+    width: 18em;
+    margin-top: 5em;
   }
 
   .card {
@@ -240,8 +303,10 @@ ul a:hover::after {
   }
 
   .tab-pane {
-    width: auto;
+    width: 20em;
     margin-top: 2em;
+    margin-left: 0.5em;
+    padding: 0 0 0 0;
   }
 
   .abc {
