@@ -348,6 +348,6 @@ ul a:hover::after {
     }
     .ab input {
         margin-top: 2em;
-        width: auto;
+        width: 16em;
     }
 }
