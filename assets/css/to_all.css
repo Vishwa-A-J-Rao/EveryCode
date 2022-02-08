@@ -344,7 +344,7 @@ ul a:hover::after {
     .none img {
         max-width: 100%;
         width: 100%;
-        height: auto !important;
+        height: auto;
     }
     .ab input {
         margin-top: 2em;
