@@ -17,9 +17,8 @@
 <body>
 
     <ul class="navigationbar">
-        <li class="try"><a href="/index.html"
-                style="color: white; font-weight: bold; font-size: 1.5em; padding:0 2em 0 2em;">Every<span
-                    style="color: #00A97F;">Code</span></a>
+        <li class="try"><a href="/index.html" style="color: white; font-weight: bold; font-size: 1.5em; padding:0 2em 0 2em;">Every<span
+                    style="color: #00A97F">Code</span></a>
         </li>
         <li class="try"><a href="python.html">Python</a></li>
         <li class="try"><a href="#">Java</a></li>
@@ -35,28 +34,25 @@
 
 
                     <li class="allprograms">
-                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#yearone" role="tab"
-                            aria-controls="home" aria-selected="true">1st Year</a>
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#yearone" role="tab" aria-controls="home" aria-selected="true">1st Year</a>
                     </li>
                     <li class="allprograms">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#yeartwo" role="tab"
-                            aria-controls="profile" aria-selected="false">2nd Year</a>
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#yeartwo" role="tab" aria-controls="profile" aria-selected="false">2nd Year</a>
                     </li>
                     <li class="allprograms">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#yearthree" role="tab"
-                            aria-controls="profile" aria-selected="false">3rd Year</a>
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#yearthree" role="tab" aria-controls="profile" aria-selected="false">3rd Year</a>
                     </li>
                     <li class="allprograms">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#ec" role="tab"
-                            aria-controls="profile" aria-selected="false">EC</a>
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#dsp" role="tab" aria-controls="profile" aria-selected="false">DSP</a>
                     </li>
                     <li class="allprograms">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#dsp" role="tab"
-                            aria-controls="profile" aria-selected="false">DSP</a>
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#vhdl" role="tab" aria-controls="profile" aria-selected="false">Verilog HDL</a>
                     </li>
                     <li class="allprograms">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#yearfour" role="tab"
-                            aria-controls="profile" aria-selected="false">4th Year</a>
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#java" role="tab" aria-controls="profile" aria-selected="false">Java</a>
+                    </li>
+                    <li class="allprograms">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#yearfour" role="tab" aria-controls="profile" aria-selected="false">4th Year</a>
 
                 </ul>
                 </ul>
@@ -66,66 +62,1293 @@
             <div class="col-md-10">
                 <div class="tab-content" id="experienceTabContent">
 
-                    <div class="tab-pane fade show active text-left text-light" id="yearone" role="tabpanel"
-                        aria-labelledby="home-tab">
+                    <div class="tab-pane fade show active text-left text-light" id="yearone" role="tabpanel" aria-labelledby="home-tab">
                         <h3 class="none">1st Year Lab Programmes</h3>
                         <span class="date-range code-font">All The Programming Codes</span>
                         <ul class="none">
                             <p class="none">
                                 Need To Fill
-                            <p>
+                            </p>
                         </ul>
                     </div>
 
-                    <div class="tab-pane fade text-left text-light" id="yeartwo" role="tabpanel"
-                        aria-labelledby="profile-tab">
+                    <div class="tab-pane fade text-left text-light" id="yeartwo" role="tabpanel" aria-labelledby="profile-tab">
                         <h3 class="none">2nd Year Lab Programmes</h3>
                         <span class="date-range code-font">All Lab Programmes</span>
                         <ul class="none">
                             <p class="none">
                                 Need To Fill
-                            <p>
+                            </p>
                         </ul>
                     </div>
 
-                    <div class="tab-pane fade text-left text-light" id="yearthree" role="tabpanel"
-                        aria-labelledby="profile-tab">
-                        <h3 class="none">3rd Year Lab Programmes</h3>
-                        <span class="date-range code-font">Lab Programmes for DSP Lab (python) and Verilog HDL</span>
+                    <div class="tab-pane fade text-left text-light" id="java" role="tabpanel" aria-labelledby="profile-tab">
+                        <h3 class="none">Name</h3>
+                        <span class="date-range code-font">Description</span>
                         <ul class="none">
                             <p class="none">
-                                Here You Can Get All The Lab Programme Codes
-                            <p>
+                                <div id="jaccordion">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#jcollapseone">
+                                           Name 1
+                                        </a>
+                                        </div>
+                                        <div id="jcollapseone" class="collapse" data-bs-parent="#jaccordion">
+                                            <div class="card-body">
+                                                <pre id="p1j">
+CODE 1
+                                            </pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p1j')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#jcollapsetwo">
+                                           Name 2
+                                        </a>
+                                        </div>
+                                        <div id="jcollapsetwo" class="collapse" data-bs-parent="#jaccordion">
+                                            <div class="card-body">
+                                                <pre id="p2j">
+CODE 2
+                                            </pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p2j')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#jcollapsethree">
+                                           Name 3
+                                        </a>
+                                        </div>
+                                        <div id="jcollapsethree" class="collapse" data-bs-parent="#jaccordion">
+                                            <div class="card-body">
+                                                <pre id="p3j">
+CODE 3
+                                            </pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p3j')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#jcollapsefour">
+                                           Name 4
+                                        </a>
+                                        </div>
+                                        <div id="jcollapsefour" class="collapse" data-bs-parent="#jaccordion">
+                                            <div class="card-body">
+                                                <pre id="p4j">
+CODE 4
+                                            </pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p4j')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#jcollapsefive">
+                                           Name 5
+                                        </a>
+                                        </div>
+                                        <div id="jcollapsefive" class="collapse" data-bs-parent="#jaccordion">
+                                            <div class="card-body">
+                                                <pre id="p5j">
+CODE 5
+                                            </pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p5j')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#jcollapsesix">
+                                           Name 6
+                                        </a>
+                                        </div>
+                                        <div id="jcollapsexix" class="collapse" data-bs-parent="#jaccordion">
+                                            <div class="card-body">
+                                                <pre id="p6j">
+CODE 6
+                                            </pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p6j')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#jcollapseseven">
+                                           Name 7
+                                        </a>
+                                        </div>
+                                        <div id="jcollapseseven" class="collapse" data-bs-parent="#jaccordion">
+                                            <div class="card-body">
+                                                <pre id="p7j">
+CODE 7
+                                            </pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p7j')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#jcollapseeight">
+                                           Name 8
+                                        </a>
+                                        </div>
+                                        <div id="jcollapseeight" class="collapse" data-bs-parent="#jaccordion">
+                                            <div class="card-body">
+                                                <pre id="p8j">
+CODE 8
+                                            </pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p8j')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
                         </ul>
                     </div>
-
-                    <div class="tab-pane fade text-left text-light" id="ec" role="tabpanel"
-                        aria-labelledby="profile-tab">
-                        <h3 class="none">DSP and VHDL</h3>
-                        <span class="date-range code-font">Lab Programmes for DSP Lab (python) and Verilog HDL</span>
+                    <div class="tab-pane fade text-left text-light" id="vhdl" role="tabpanel" aria-labelledby="profile-tab">
+                        <h3 class="none">Verilog HDL</h3>
+                        <span class="date-range code-font">Lab Programmes for Verilog HDL</span>
                         <ul class="none">
                             <p class="none">
-                                Here You Can Get All The Lab Programme Codes
-                            <p>
+                                <div id="vaccordion">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#vcollapseone">
+                                               1.1. Verilog HDL Code To Realize 2 To 4 Decoder
+                                            </a>
+                                        </div>
+                                        <div id="vcollapseone" class="collapse" data-bs-parent="#vaccordion">
+                                            <div class="card-body">
+                                                <li>Verilog Code:</li>
+                                                <pre id="p1vc">
+module decoder(y,i1,i0,e);
+    output [3:0]y;
+    input i1,i0;
+    input e;
+    wire i1not,i0not,enot;
+    not g1(i1not,i1);
+    not g2(i0not,i0);
+    not g3(enot,e);
+    nand g4(y[0],i1not,i0not,enot);
+    nand g5(y[1],i1not,i0,enot);
+    nand g6(y[2],i1,i0not,enot);
+    nand g7(y[3],i1,i0,enot);
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p1vc')[0].textContent)">Copy</button>
+                                                <li><br>Test Bench:</li>
+                                                <pre id="p1tb">
+module decoder_tb;
+    wire [3:0]y;
+    reg e;
+    reg i1,i0;
+    decoder uut(y,i1,i0,e);
+    initial begin
+        e=1;#100;
+        i1=0;i0=0;e=0;#100;
+        i1=0;i0=1;#100;
+        i1=1;i0=0;#100;
+        i1=1;i0=1;#100;
+    end
+endmodule
+                                                </pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p1tb')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <!--div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#collapstwo">
+                                               Name
+                                            </a>
+                                        </div>
+                                        <div id="collapsetwo" class="collapse" data-bs-parent="#accordion">
+                                            <div class="card-body">
+                                                <li>Verilog Code:</li>
+                                                <pre id="p2vc">
+code</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p2vc')[0].textContent)">Copy</button>
+                                                <li><br>Test Bench:</li>
+                                                <pre id="p2tb">
+code
+                                                </pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p2tb')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div-->
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#vcollapsetwo">
+                                               1.2. Verilog HDL Code For 8:3 Encoder (Without And With Priorities)
+                                            </a>
+                                        </div>
+                                        <div id="vcollapsetwo" class="collapse" data-bs-parent="#vaccordion">
+                                            <div class="card-body">
+                                                <li>Without Priority</li>
+                                                <li><br>Verilog Code:</li>
+                                                <pre id="p2vc">
+module encoder(y,x,e);
+    input e;
+    input [7:0]x;
+    output[2:0]y;
+    reg [2:0]y;
+    always @(e,x)
+    begin
+        if(e==1'b0)
+            y=3'b000;
+        else
+        begin
+            case(x)
+                8'b00000001:y=3'b000;
+                8'b00000010:y=3'b001;
+                8'b00000100:y=3'b010;
+                8'b00001000:y=3'b011;
+                8'b00010000:y=3'b100;
+                8'b00100000:y=3'b101;
+                8'b01000000:y=3'b110;
+                8'b10000000:y=3'b111;
+                default:y=3'bzzz;
+            endcase
+        end
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p2vc')[0].textContent)">Copy</button>
+                                                <li><br>Test Bench:</li>
+                                                <pre id="p2tb">
+module encoder_tb;
+    reg e;
+    reg [7:0]x;
+    wire [2:0]y;
+    encoder uut(y,x,e);
+    initial begin
+		#10 e=0;
+		#10 x=8'b00000001;e=1;
+		#10 x=8'b00000001;
+		#10 x=8'b00000010;
+		#10 x=8'b00000100;
+		#10 x=8'b00001000;
+		#10 x=8'b00010000;
+		#10 x=8'b00100000;
+		#10 x=8'b01000000;
+		#10 x=8'b10000000;
+		#10$stop;
+	end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p2tb')[0].textContent)">Copy</button>
+                                                <li><br>With Priority</li>
+                                                <li><br>Verilog Code:</li>
+                                                <pre id="p2vcp">
+module encoder(y,x,e);
+    input e;
+    input [7:0]x;
+    output[2:0]y;
+    reg [2:0]y;
+    always @(e,x)
+    begin
+        if(e==1'b0)
+            y=3'b000;
+        else
+        begin
+            casex(x)
+                8'b00000001:y=3'b000;
+                8'b0000001x:y=3'b001;
+                8'b000001xx:y=3'b010;
+                8'b00001xxx:y=3'b011;
+                8'b0001xxxx:y=3'b100;
+                8'b001xxxxx:y=3'b101;
+                8'b01xxxxxx:y=3'b110;
+                8'b1xxxxxxx:y=3'b111;
+                default:y=3'bzzz;
+            endcase
+        end
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p2vcp')[0].textContent)">Copy</button>
+                                                <li><br>Test Bench:</li>
+                                                <pre id="p2tbp">
+module encoder_tb;
+    reg e;
+    reg [7:0]x;
+    wire [2:0]y;
+    encoder uut(y,x,e);
+    initial begin
+		#10 e=0;
+		#10 x=8'b00000001;e=1;
+		#10 x=8'b00000001;
+		#10 x=8'b0000001x;
+		#10 x=8'b000001xx;
+		#10 x=8'b00001xxx;
+		#10 x=8'b0001xxxx;
+		#10 x=8'b001xxxxx;
+		#10 x=8'b01xxxxxx;
+		#10 x=8'b1xxxxxxx;
+		#10$stop;
+	end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p2tbp')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#vcollapsethree">
+                                               1.3 Verilog Code For 8:1 Multiplexer
+                                            </a>
+                                        </div>
+                                        <div id="vcollapsethree" class="collapse" data-bs-parent="#vaccordion">
+                                            <div class="card-body">
+                                                <li>Verilog Code:</li>
+                                                <pre id="p3vc">
+module muxx(y,i,e,s);
+    input e;
+    input [7:0]i;
+    input [2:0]s;
+    output y;
+    reg y;
+    always @(e,s,i)
+    begin
+        if(e==0)
+            y=1'bz;
+        else if(e==1)
+        begin
+            case(s)
+                3'd0:y=i[0];
+                3'd1:y=i[1];
+                3'd2:y=i[2];
+                3'd3:y=i[3];
+                3'd4:y=i[4];
+                3'd5:y=i[5];
+                3'd6:y=i[6];
+                3'd7:y=i[7];
+            endcase
+        end
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p3vc')[0].textContent)">Copy</button>
+                                                <li><br>Test Bench:</li>
+                                                <pre id="p3tb">
+module mux_tb;
+    reg e;
+    reg [7:0]i;
+    reg [2:0]s;
+    wire y;
+    muxx uut(y,i,e,s);
+    initial begin
+        i=8'b00000000;
+        e=1'b0;
+        s=3'b000;
+        #100;
+        i=8'b01010101;
+        e=1;
+        s=3'b000;#100;
+        s=3'b001;#100;
+        s=3'b010;#100;
+        s=3'b011;#100;
+        s=3'b100;#100;
+        s=3'b101;#100;
+        s=3'b110;#100;
+        s=3'b111;#100;
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p3tb')[0].textContent)">Copy</button>
+                                                <li><br>Using Else-If Statement</li>
+                                                li>Verilog Code:</li>
+                                                <pre id="p3vcp">
+module muxx(y,i,e,s);
+    input e;
+    input [7:0]i;
+    input [2:0]s;
+    output y;
+    reg y;
+    always @(e,s,i)
+    begin
+        if(e==0)
+            y=1'bz;
+        else if(s==0)
+            y=i[0];
+        else if(s==1)
+            y=i[1];
+        else if(s==2)
+            y=i[2];
+        else if(s==3)
+            y=i[3];
+        else if(s==4)
+            y=i[4];
+        else if(s==5)
+            y=i[5];
+        else if(s==6)
+            y=i[6];
+        else if(s==7)
+            y=i[7];
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p3vcp')[0].textContent)">Copy</button>
+                                                <li><br>Test Bench:</li>
+                                                <pre id="p3tbp">
+module mux_tb;
+    reg e;
+    reg [7:0]i;
+    reg [2:0]s;
+    wire y;
+    muxx uut(y,i,e,s);
+    initial begin
+        i=8'b00000000;
+        e=1'b0;
+        s=3'b000;
+        #100;
+        i=8'b01010101;
+        e=1;
+        s=3'b000;#100;
+        s=3'b001;#100;
+        s=3'b010;#100;
+        s=3'b011;#100;
+        s=3'b100;#100;
+        s=3'b101;#100;
+        s=3'b110;#100;
+        s=3'b111;#100;
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p3tbp')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#vcollapsefour">
+                                                1.4 Verilog HDL Code For 4 Bit Binary To Gray Conversion
+                                            </a>
+                                        </div>
+                                        <div id="vcollapsefour" class="collapse" data-bs-parent="#vaccordion">
+                                            <div class="card-body">
+                                                <li>Using Data Flow</li>
+                                                <li>Verilog Code:</li>
+                                                <pre id="p4vc">
+module bingray(b,g);
+    input [3:0]b;
+    output [3:0]g;
+    assign g[3]=b[3];
+    assign g[2]=b[3]^b[2];
+    assign g[1]=b[2]^b[1];
+    assign g[0]=b[1]^b[0];
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p4vc')[0].textContent)">Copy</button>
+                                                <li><br>Test Bench:</li>
+                                                <pre id="p4tb">
+module bingray_tb;
+    reg [3:0]b;
+    wire [3:0]g;
+    bingray uut(b,g);
+    always
+    begin
+        b=0;#10;
+        b=1;#10;
+        b=2;#10;
+        b=3;#10;
+        b=4;#10;
+        b=5;#10;
+        b=6;#10;
+        b=7;#10;
+        b=8;#10;
+        b=9;#10;
+        b=10;#10;
+        b=11;#10;
+        b=12;#10;
+        b=13;#10;
+        b=14;#10;
+        b=15;#10;
+        #100;
+        $stop;
+    end
+endmodule
+                                                </pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p4tb')[0].textContent)">Copy</button>
+                                                <li><br>Using 1 Bit Gray To Binary, Adder, Subtractor</li>
+                                                <li>Verilog Code:</li>
+                                                <pre id="p4vcp">
+module bingray(g,b);
+    input [3:0] b;
+    output [3:0] g;
+    assign g[3] = b[3];
+    graytobin a3(g[2],b[2],b[3]);
+    adder a2(g[1],b[1],b[2]);
+    sub a1(g[0],b[0],b[1]);
+endmodule
+
+module graytobin (x,y,z);
+    input y,z;
+    output x;
+    assign x = y ^ z;
+endmodule
+
+module adder(sum,p,q);
+    input p,q;
+    output sum;
+    assign sum = p^q;
+endmodule
+
+module sub(diff,m,n);
+    input m,n;
+    output diff;
+    assign diff = m ^ n ;
+endmodule
+</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p4vcp')[0].textContent)">Copy</button>
+                                                <li><br>Test Bench:</li>
+                                                <pre id="p4tbp">
+module bingray_tb;
+    reg [3:0]b;
+    wire [3:0]g;
+    bingray uut(b,g);
+    always
+    begin
+        b=0;#10;
+        b=1;#10;
+        b=2;#10;
+        b=3;#10;
+        b=4;#10;
+        b=5;#10;
+        b=6;#10;
+        b=7;#10;
+        b=8;#10;
+        b=9;#10;
+        b=10;#10;
+        b=11;#10;
+        b=12;#10;
+        b=13;#10;
+        b=14;#10;
+        b=15;#10;
+        #100;
+        $stop;
+    end
+endmodule
+                                                </pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p4tbp')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#vcollapsefive">
+                                                2. MODEL IN VERILOG FOR A FULL ADDER AND ADD FUNCTIONALITY TO PERFORM LOGICAL OPERATIONS OF XOR, XNOR, AND AND, OR GATES. WRITE TEST BENCH WITH APPROPRIATE INPUT PATTERNS TO VERIFY THE MODELED BEHAVIOUR.
+                                            </a>
+                                        </div>
+                                        <div id="vcollapsefive" class="collapse" data-bs-parent="#vaccordion">
+                                            <div class="card-body">
+                                                <li>Verilog Code:</li>
+                                                <pre id="p5vc">
+module full_adder(sum,carry,a,b,cin);
+    input a,b,cin;
+    output sum,carry;
+    wire i,j,k,l;
+    xor_gate j1(i,a,b);
+    xor_gate j2(sum,i,cin);
+    and_gate j3(j,a,b);
+    and_gate j4(k,b,cin);
+    and_gate j5(l,a,cin);
+    or_gate j6(carry,j,k,l);
+endmodule
+
+//module for and_gate
+module and_gate(out,in1,in2);
+    input in1,in2;
+    output out;
+    assign out=in1&amp;in2;
+endmodule
+
+//module for xor_gate
+    module xor_gate(out,in1,in2);
+    input in1,in2;
+    output out;
+    assign out=in1^in2;
+endmodule
+
+//module for or_gate
+module or_gate(out,in1,in2,in3);
+    input in1,in2,in3;
+    output out;
+    assign out=in1|in2|in3;
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p5vc')[0].textContent)">Copy</button>
+                                                <li><br>Test Bench:</li>
+                                                <pre id="p5tb">
+module full_adder_tb;
+    reg a;
+    reg b;
+    reg cin;
+    wire sum;
+    wire carry;
+    full_adder uut (sum,carry,a,b,cin);                                         
+    initial begin
+        a = 0;
+        b = 0;
+        cin = 0;
+        $monitor($time,"a=%b,b=%b,cin=%b,sum=%b,carry=%b",a,b,cin,sum,carry);
+        #100 a=0;b=0;cin=0;
+        #100 a=0;b=0;cin=1;
+        #100 a=0;b=1;cin=0;
+        #100 a=0;b=1;cin=1;
+        #100 a=1;b=0;cin=0;
+        #100 a=1;b=0;cin=1;
+        #100 a=1;b=1;cin=0;
+        #100 a=1;b=1;cin=1;
+        #100;    
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p5tb')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#vcollapsesix">
+                                                3. HDL CODE TO DESIGN 32 BIT ALU
+                                            </a>
+                                        </div>
+                                        <div id="vcollapsesix" class="collapse" data-bs-parent="#vaccordion">
+                                            <div class="card-body">
+                                                <li>Verilog Code:</li>
+                                                <pre id="p6vc">
+module alu(result,ack,a,b,opcode,en);
+    input [2:0]opcode;
+    input en;
+    input [31:0]a,b;
+    output [32:0]result;
+    reg [32:0]result;
+    output ack;
+    reg ack;
+    always @(en,opcode,a,b)
+    begin
+        if(en==0)
+            result=33'bzzzz;
+        else
+        case(opcode)
+            3'b000:result=a+b;
+            3'b001:result=a-b;
+            3'b010:result=a+1;
+            3'b011:result=a-1;
+            3'b100:result=a;
+            3'b101:result=~a;
+            3'b110:result=a|b;
+            3'b111:result=a&amp;b;
+        endcase
+        ack=(en==1)?1:0;
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p6vc')[0].textContent)">Copy</button>
+                                                <li><br>Test Bench:</li>
+                                                <pre id="p6tb">
+module alu_tb;
+    reg [31:0] a;
+    reg [31:0] b;
+    reg [2:0] opcode;
+    reg en;
+    wire [32:0] result;
+    wire ack;
+    alu uut (result,ack,a,b,opcode,en);
+    initial begin
+        a = 32'b0000;b = 32'b0000;en = 1'b0;
+        opcode = 3'b000;
+        $monitor($time,"a=%b, b=%b, opcode=%b, en=%b, result=%b, ack=%b",a,b,opcode,en,result,ack);
+        #100 en=1'b1;
+        #100 opcode=3'b001;
+        #100 opcode=3'b010;
+        #100 opcode=3'b011;
+        #100 opcode=3'b100;
+        #100 opcode=3'b101;
+        #100 opcode=3'b110;
+        #100 opcode=3'b111;
+        #100;                                             
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p6tb')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#vcollapseseven">
+                                                4. WRITE VERILOG CODE FOR SR, D AND JK AND VERIFY THE FLIP FLOP.
+                                            </a>
+                                        </div>
+                                        <div id="vcollapseseven" class="collapse" data-bs-parent="#vaccordion">
+                                            <div class="card-body">
+                                                <li>SR Flip Flop</li>
+                                                <li>Verilog Code:</li>
+                                                <pre id="p7vcsr">
+module SR(sr,clk,q,qb);
+    input [1:0]sr;
+    input clk;
+    output q,qb;
+    reg q,qb;
+    always@(posedge(clk))
+    begin
+        case(sr)
+            2'b00:q=q;
+            2'b01:q=1'b0;
+            2'b10:q=1'b1;
+            2'b11:q=1'bx;
+        endcase
+        qb=~q;
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p7vcsr')[0].textContent)">Copy</button>
+                                                <li><br>Test Bench:</li>
+                                                <pre id="p7tbsr">
+module SR_tb;
+    reg [1:0] sr;
+    reg clk;
+    wire q;
+    wire qb;
+    SR uut(sr,clk,q,qb);                                    
+    initial clk = 0;
+    always #50 clk = ~clk;
+    initial begin
+        $monitor($time," clk= %b, sr= %b, q= %b, qb= %b",clk,sr,q,qb);
+        clk = 0;sr = 00; #100;
+        clk = 1;sr = 01; #100;
+        clk = 1;sr = 10; #100;
+        clk = 1;sr = 11; #100;
+        clk = 1;sr = 00; #100;
+        #100;                                      
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p7tbsr')[0].textContent)">Copy</button>
+                                                <li><br>JK Flip Flop</li>
+                                                <li>Verilog Code:</li>
+                                                <pre id="p7vcjk">
+module JK(jk,clk,q,qb);
+    input [1:0]jk;
+    input clk;
+    output q,qb;
+    reg q,qb;
+    always@(posedge(clk))
+    begin
+        case(jk)
+            2'b00:q=q;
+            2'b01:q=1'b0;
+            2'b10:q=1'b1;
+            2'b11:q=~q;
+        endcase
+    qb=~q;
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p7vcjk')[0].textContent)">Copy</button>
+                                                <li><br>Test Bench:</li>
+                                                <pre id="p7tbjk">
+module JK_tb;
+reg [1:0] jk;
+reg clk;
+wire q;
+wire qb;
+JK uut (jk,clk,q,qb);                          
+initial clk = 0;
+always #50 clk = ~clk;
+initial begin
+    $monitor($time," clk= %b, jk= %b, q= %b, qb= %b",clk,jk,q,qb);
+    clk = 0;jk = 00; #100;
+    clk = 1;jk = 01; #100;
+    clk = 1;jk = 10; #100;
+    clk = 1;jk = 11; #100;
+    clk = 1;jk = 00; #100;
+    #100;
+end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p7tbjk')[0].textContent)">Copy</button>
+                                                <li><br>D Flip Flop</li>
+                                                <li>Verilog Code:</li>
+                                                <pre id="p7vcd">
+module D(q,qb,clk,d);
+    input d,clk;
+    output q,qb;
+    reg q,qb;
+    always@(posedge clk)
+    begin
+        if(d==1'b1)
+            q=d;
+        lse if (d==1'b0)
+        q=d;
+        qb=~q;
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p7vcd')[0].textContent)">Copy</button>
+                                                <li><br>Test Bench:</li>
+                                                <pre id="p7tbd">
+module D_tb;
+    reg d;
+    reg clk;
+    wire q;
+    wire qb;
+    D uut (q,qb,clk,d);
+    initial clk = 0;
+    always #50 clk=~clk;
+    initial begin
+        d = 0; #100
+        d = 1; #100
+        d = 0; #100
+        #100;
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p7tbd')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#vcollapseeight">
+                                                5. DESIGN OF FOUR BIT BCD COUNTERS
+                                            </a>
+                                        </div>
+                                        <div id="vcollapseeight" class="collapse" data-bs-parent="#vaccordion">
+                                            <div class="card-body">
+                                                <li>Verilog Code:</li>
+                                                <pre id="p8vc">
+module up_counte(q,rst,clk);
+    input clk,rst;
+    output[3:0]q;
+    reg [3:0]q;
+    initial
+    q=4'b0000;
+    always@(posedge(clk))
+    begin
+        if(rst==1)
+            q=4'b0000;
+        else
+            q=q+1;
+        if(q==4'b1010)
+            q=4'b0000;
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p8vc')[0].textContent)">Copy</button>
+                                                <li><br>Test Bench:</li>
+                                                <pre id="p8tb">
+module up_counter_tb;
+	reg rst;
+	reg clk;
+	wire [3:0] q;
+	up_counte uut (q,rst,clk);
+	initial
+	clk = 0;
+	always #50 clk=~clk;
+	initial begin
+	    $monitor($time," clk = %b, rst = %b, q = %b",clk,rst,q);
+		#0 rst=1;
+		#100 rst=0;
+		#900 rst=1;
+		#100 rst=0;
+		#100;
+    end
+endmodule
+                                                </pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p8tb')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#vcollapsenine">
+                                                6. VERILOG CODE FOR COUNTER WITH GIVEN INPUT CLOCK AND CHECK WHETHER IT WORKS AS CLOCK DIVIDER PERFORMING DIVISION OF CLOCK BY 2, 4, 8 AND 16. VERIFY THE FUNCTIONALITY OF THE CODE
+                                            </a>
+                                        </div>
+                                        <div id="vcollapsenine" class="collapse" data-bs-parent="#vaccordion">
+                                            <div class="card-body">
+                                                <li>Verilog Code:</li>
+                                                <pre id="p9vc">
+module frequency_divider(clk,out_clk1,out_clk2,out_clk3,out_clk4);
+    input clk;
+    output out_clk1,out_clk2,out_clk3,out_clk4;
+    frequency_divider_ a1(clk,4'b0001,out_clk1);
+    frequency_divider_ a2(clk,4'b0010,out_clk2);
+    frequency_divider_ a3(clk,4'b0100,out_clk3);
+    frequency_divider_ a4(clk,4'b1000,out_clk4);
+endmodule
+                                                
+module frequency_divider_(clk,c,out_clk);
+    input clk;
+    input [3:0]c;
+    output reg out_clk;
+    reg[3:0]count;
+    initial begin
+        count&lt;=4'b0001;
+        out_clk&lt;=0;
+    end
+    always@(posedge (clk))
+    begin
+        if(count==c)
+        begin
+            count&lt;=4'b0001;
+            out_clk&lt;=~out_clk;
+        end
+        else
+            count&lt;=count+1;
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p9vc')[0].textContent)">Copy</button>
+                                                <li><br>Test Bench:</li>
+                                                <pre id="p9tb">
+module frequency_divider_tb;
+	reg clk;
+	wire out_clk1;
+	wire out_clk2;
+	wire out_clk3;
+	wire out_clk4;
+	frequency_divider uut (clk,out_clk1,out_clk2,out_clk3,out_clk4);
+	initial begin
+		clk = 0;
+		#160;
+		end
+		always #30 clk=~clk;
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p9tb')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#vcollapseten">
+                                               7. VERILOG CODE TO DESIGN CLOCK DIVIDER CIRCUIT
+                                            </a>
+                                        </div>
+                                        <div id="vcollapseten" class="collapse" data-bs-parent="#vaccordion">
+                                            <div class="card-body">
+                                                <li>Verilog Code:</li>
+                                                <pre id="p10vc">
+module frequency_divider_(clk,c,out_clk);
+    input clk;
+    input [3:0] c;
+    output reg out_clk;
+    reg [3:0] count;
+    reg [30:0]clkdiv;
+    wire ddclk;
+    initial begin
+        count&lt;=4'b0001;
+        out_clk&lt;=0;
+    end
+    always@(posedge clk)
+    begin
+        clkdiv=clkdiv+1;
+    end
+    assign ddclk=clkdiv[20];
+    always@(posedge ddclk)
+    begin
+        if (count==c)
+            begin
+                count&lt;=4'b0001;
+                out_clk&lt;=~out_clk;
+            end
+        else
+            count&lt;=count+1;
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p10vc')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#vcollapseeleven">
+                                                8. WRITE HDL CODE TO CONTROL SPEED, DIRECTION OF DC MOTOR
+                                            </a>
+                                        </div>
+                                        <div id="vcollapseeleven" class="collapse" data-bs-parent="#vaccordion">
+                                            <div class="card-body">
+                                                <li>Verilog Code:</li>
+                                                <pre id="p11vc">
+module dcmotor(clk,reset,dir,row,rly,pwm);
+    input clk,reset,dir;
+    input [3:0] row;
+    output rly;
+    output [1:0]pwm;
+    reg [1:0]pwm;
+    reg[7:0] counter=8'b11111110;
+    reg[16:0] div_reg;
+    reg dclk;
+    wire tick;
+    integer duty_cycle;
+    always@(posedge clk)
+    begin
+        div_reg = div_reg + 1;
+        dclk=div_reg[12];
+    end
+    assign tick = row[0] & row[1] & row[2] & row[3];
+    always@(negedge tick)
+    begin
+        case(row)
+            4'b1110: duty_cycle = 255;
+            4'b1101: duty_cycle = 200;
+            4'b1011: duty_cycle = 150;
+            4'b0111: duty_cycle = 100;
+            default: duty_cycle = 100;
+        endcase
+    end
+    always@(posedge dclk)
+    begin
+        if(reset==0)
+            begin
+                counter=8'b0;
+                pwm=2'b01;
+            end
+        else
+        begin
+            counter = counter + 1;
+            if (counter >= duty_cycle)
+                pwm[1] = 0;
+            else
+                pwm[1] = 1;
+        end
+    end
+    assign rly=dir;
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p11vc')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#vcollapsetwelve">
+                                                9. HDL CODE TO CONTROL DIRECTION OF ROTATION OF STEPPER MOTOR
+                                            </a>
+                                        </div>
+                                        <div id="vcollapsetwelve" class="collapse" data-bs-parent="#vaccordion">
+                                            <div class="card-body">
+                                                <li>Verilog Code:</li>
+                                                <pre id="p12vc">
+module stepper(clk,reset, dipsw1, dipsw2, dipsw3, dout);
+    input clk, reset, dipsw1, dipsw2, dipsw3;
+    output reg[3:0]dout;
+    reg [0:35]divclk;
+    wire intclk;
+    reg [3:0]register;
+    integer n=200;
+    integer i=0;
+    always@(posedge clk)
+    begin
+        divclk=divclk+1;
+    end
+    assign intclk=divclk[16];
+    always@(posedge intclk)
+    begin
+        if(reset)
+            begin
+                register&lt;=4'b1001;
+                i=0;
+            end
+        else
+            begin
+                if(dipsw1)
+                    begin
+                        if(i&lt;n)
+                            begin
+                                register&lt;={register[2:0],register[3]};
+                                dout=register;
+                                i=i+1;
+                            end
+                    end
+                else if(dipsw2)
+                    begin
+                        if(i&lt;n/2)
+                            begin
+                                register&lt;={register[2:0],register[3]};
+                                dout=register;
+                                i=i+1;
+                            end
+                    end
+                else if(dipsw3)
+                    begin
+                        if(i&lt;n)
+                            begin
+                                register&lt;={register[0],register[3:1]};
+                                dout=register;
+                                i=i+1;
+                            end
+                    end
+            end
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p12vc')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#vcollapsethirteen">
+                                                10. INTERFACE A DAC TO FPGA AND WRITE VERILOG CODE TO GENERATE SINEWAVE OF FREQUENCY F KHZ FREQUENCY. MODIFY THE CODE TO DOWN SAMPLE THE FREQUENCY TO F/2 KHZ. DISPLAY THE ORIGINAL AND DOWN SAMPLED SIGNALS BY CONNECTING THEM TO AN OSCILLOSCOPE
+                                            </a>
+                                        </div>
+                                        <div id="vcollapsethirteen" class="collapse" data-bs-parent="#vaccordion">
+                                            <div class="card-body">
+                                                <li>Verilog Code:</li>
+                                                <pre id="p13vc">
+module sine_wave_gen(Clk,data_out);
+    input Clk;
+    output [7:0] data_out;
+    reg [7:0] sine [0:29];
+    integer i;
+    reg[5:0] temp;
+    reg [7:0] data_out;
+    initial begin
+        i = 0;
+        sine[0] = 128;
+        sine[1] = 154;
+        sine[2] = 180;
+        sine[3] = 203;
+        sine[4] = 223;
+        sine[5] = 238;
+        sine[6] = 249;
+        sine[7] = 255;
+        sine[8] = 255;
+        sine[9] = 249;
+        sine[10] = 238;
+        sine[11] = 223;
+        sine[12] = 203;
+        sine[13] = 180;
+        sine[14] = 154;
+        sine[15] = 128;
+        sine[16] = 101;
+        sine[17] = 75;
+        sine[18] = 52;
+        sine[19] = 32;
+        sine[20] = 17;
+        sine[21] = 6;
+        sine[22] = 0;
+        sine[23] = 0;
+        sine[24] = 7;
+        sine[25] = 17;
+        sine[26] = 32;
+        sine[27] = 52;
+        sine[28] = 75;
+        sine[29] = 101;
+    end
+    always@ (posedge(Clk))
+    begin
+        temp=temp+1;
+    end
+    always@(posedge( temp[3]))
+    begin
+        data_out = sine[i];
+        i = i+ 1;
+        if(i == 29)
+            i = 0;
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p13vc')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#vcollapsefourteen">
+                                                11. WRITE HDL CODE TO SIMULATE ELEVATOR OPERATION.
+                                            </a>
+                                        </div>
+                                        <div id="vollapsefourteen" class="collapse" data-bs-parent="#vaccordion">
+                                            <div class="card-body">
+                                                <li>Verilog Code:</li>
+                                                <pre id="p14vc">
+module ctr(clk,reset,y,dir);
+    input clk, reset;
+    output [3:0] y;
+    input [3:0] dir;
+    reg [3:0]yb=4'b0001;
+    reg [21:0]clkd;
+    reg [3:0]dir1;
+    always @ (posedge clk)
+        clkd=clkd+1;
+    always@ (posedge clkd[21])
+    begin
+        if (reset)
+            begin
+                if (dir&lt;yb)
+                    begin
+                        if(yb==4'b0001)
+                            yb=4'b0001;
+                        else
+                            yb={yb[0] , yb[3:1]};
+                    end
+                else if (dir>yb)
+                    yb={yb[2:0] , yb[3]};
+                else if (dir == yb)
+                    yb=dir;
+            end
+    end
+assign y=yb;
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p14vc')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#vcollapsefifteen">
+                                               12. Generating Triangle, Square and Ramp Waves
+                                            </a>
+                                        </div>
+                                        <div id="vcollapsefifteen" class="collapse" data-bs-parent="#vaccordion">
+                                            <div class="card-body">
+                                                <li>Triangle Wave</li>
+                                                <li>Verilog Code:</li>
+                                                <pre id="p15vct">
+module triangle_wave(clk,dac_out);
+    input clk;
+    output reg[7:0]dac_out;
+    reg [8:0]counter;
+    reg [3:0]temp;
+    always@(posedge clk)
+    begin
+        temp=temp+1;
+    end
+    always@(posedge temp[3])
+    begin
+        counter=counter+1;
+        if(counter[8]==0)
+            dac_out=(counter[7:0]);
+        else
+            dac_out=~(counter[7:0]);
+    end
+endmodule</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p15vct')[0].textContent)">Copy</button>
+                                                <li><br>Square Wave</li>
+                                                <li>Verilog Code:</li>
+                                                <pre id="p15vcs">
+module square_wave(clk,dac_out);
+    input clk;
+    output reg[7:0]dac_out;
+    reg [8:0]counter;
+    reg [3:0]temp;
+    always@(posedge clk)
+    begin
+        temp=temp+1;
+    end
+    always@(posedge temp[3])
+    begin
+        counter=counter+1;
+        if(counter[8]==0)
+            dac_out=8'b00000000;
+        else
+            dac_out=8'b11111111;
+    end
+endmodule
+                                                </pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p15vcs')[0].textContent)">Copy</button>
+                                                <li><br>Square Wave</li>
+                                                <li>Verilog Code:</li>
+                                                <pre id="p15vcr">
+module ramp_wave(clk,dac_out);
+    input clk;
+    output reg[7:0]dac_out;
+    reg [8:0]counter;
+    reg [3:0]temp;
+    always@(posedge clk)
+    begin
+        temp=temp+1;
+    end
+    always@(posedge temp[3])
+    begin
+        counter=counter+1;
+        assign dac_out=counter;
+    end
+endmodule
+                                                </pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p15vcr')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </p>
                         </ul>
                     </div>
 
-                    <div class="tab-pane fade text-left text-light" id="dsp" role="tabpanel"
-                        aria-labelledby="profile-tab">
+
+
+
+
+
+
+                    <!--DSP STARTS-->
+                    <div class="tab-pane fade text-left text-light" id="dsp" role="tabpanel" aria-labelledby="profile-tab">
                         <h3 class="none">DSP Programmes</h3>
                         <span class="date-range code-font">Lab Programmes for DSP Lab</span>
                         <ul class="none">
                             <p class="none" style="font-size: 1.2em;">
-                            <div id="accordion">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                                <div id="paccordion">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#pcollapseOne">
                                             1. Verification of sampling theorem (use interpolation function).
                                         </a>
-                                    </div>
-                                    <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
-                                        <div class="card-body">
-                                            <pre id="p1">
+                                        </div>
+                                        <div id="pcollapseOne" class="collapse" data-bs-parent="#paccordion">
+                                            <div class="card-body">
+                                                <pre id="p1">
 import numpy as np
 import matplotlib.pyplot as plt
 from math import pi,sin,cos
@@ -157,12 +1380,11 @@ plt.subplot(3,1,3)
 plt.plot(t,xr)
 plt.show()
                                             </pre>
-                                            <button class="butt"
-                                                onclick="copytext(document.querySelectorAll('#p1')[0].textContent)">Copy</button>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p1')[0].textContent)">Copy</button>
 
+                                            </div>
                                         </div>
-                                    </div>
-                                    <!--div class="card-header">
+                                        <!--div class="card-header">
                                             <a class="btn" data-bs-toggle="collapse" href="#collapsetwo">
                                                name
                                             </a>
@@ -174,15 +1396,15 @@ plt.show()
                                                 </p>
                                             </div>
                                         </div-->
-                                    <div class="card-header">
-                                        <a class="btn" data-bs-toggle="collapse" href="#collapsetwo">
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#pcollapsetwo">
                                             2. Linear and circular convolution of two given sequences, Commutative,
                                             distributive and associative property of convolution.
                                         </a>
-                                    </div>
-                                    <div id="collapsetwo" class="collapse" data-bs-parent="#accordion">
-                                        <div class="card-body">
-                                            <pre id="p2">
+                                        </div>
+                                        <div id="pcollapsetwo" class="collapse" data-bs-parent="#paccordion">
+                                            <div class="card-body">
+                                                <pre id="p2">
 import numpy as np
 from operator import mod
 def comp_array(l,r):
@@ -268,19 +1490,18 @@ print()
 x3=circ_conv(a,b)
 print("Circular Convolution is:",x3)
                                             </pre>
-                                            <button class="butt"
-                                                onclick="copytext(document.querySelectorAll('#p2')[0].textContent)">Copy</button>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p2')[0].textContent)">Copy</button>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card-header">
-                                        <a class="btn" data-bs-toggle="collapse" href="#collapsethree">
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#pcollapsethree">
                                             3. Auto and cross correlation of two sequences and verification of their
                                             properties.
                                         </a>
-                                    </div>
-                                    <div id="collapsethree" class="collapse" data-bs-parent="#accordion">
-                                        <div class="card-body">
-                                            <pre id="p3">
+                                        </div>
+                                        <div id="pcollapsethree" class="collapse" data-bs-parent="#paccordion">
+                                            <div class="card-body">
+                                                <pre id="p3">
 import numpy as np
 import matplotlib.pyplot as plt
 def lc(x,h):
@@ -337,18 +1558,17 @@ plt.xlabel("n-->")
 plt.ylabel("y[n]-->")
 plt.show()
                                             </pre>
-                                            <button class="butt"
-                                                onclick="copytext(document.querySelectorAll('#p3')[0].textContent)">Copy</button>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p3')[0].textContent)">Copy</button>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card-header">
-                                        <a class="btn" data-bs-toggle="collapse" href="#collapsefour">
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#pcollapsefour">
                                             4. Solving a given difference equation.
                                         </a>
-                                    </div>
-                                    <div id="collapsefour" class="collapse" data-bs-parent="#accordion">
-                                        <div class="card-body">
-                                            <pre id="p4">
+                                        </div>
+                                        <div id="pcollapsefour" class="collapse" data-bs-parent="#paccordion">
+                                            <div class="card-body">
+                                                <pre id="p4">
 import numpy as np
 def filter(b,a,x):
     N=len(x)
@@ -373,19 +1593,18 @@ print("b=",b)
 print("x=",x)
 print("Differential Equation Y=",y)
                                             </pre>
-                                            <button class="butt"
-                                                onclick="copytext(document.querySelectorAll('#p4')[0].textContent)">Copy</button>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p4')[0].textContent)">Copy</button>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card-header">
-                                        <a class="btn" data-bs-toggle="collapse" href="#collapsefive">
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#pcollapsefive">
                                             5. Computation of N point DFT of a given sequence and to plot magnitude and
                                             phase spectrum.
                                         </a>
-                                    </div>
-                                    <div id="collapsefive" class="collapse" data-bs-parent="#accordion">
-                                        <div class="card-body">
-                                            <pre id="p5">
+                                        </div>
+                                        <div id="pcollapsefive" class="collapse" data-bs-parent="#paccordion">
+                                            <div class="card-body">
+                                                <pre id="p5">
 import numpy as np
 import matplotlib.pyplot as plt
 from cmath import pi,exp
@@ -425,117 +1644,422 @@ plt.ylabel("<X(k)-->")
 plt.stem(range(N),np.angle(X1))
 plt.show()
                                             </pre>
-                                            <button class="butt"
-                                                onclick="copytext(document.querySelectorAll('#p5')[0].textContent)">Copy</button>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p5')[0].textContent)">Copy</button>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card-header">
-                                        <a class="btn" data-bs-toggle="collapse" href="#collapsesix">
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#pcollapsesix">
                                             6. Verify DFT properties, DFT of square pulse and sinc function.
                                         </a>
-                                    </div>
-                                    <div id="collapsesix" class="collapse" data-bs-parent="#accordion">
-                                        <div class="card-body">
-                                            <pre id="p6">
-                                                writeeeeeeeeeeeeeeee
-                                            </pre>
-                                            <button class="butt"
-                                                onclick="copytext(document.querySelectorAll('#p6')[0].textContent)">Copy</button>
                                         </div>
-                                    </div>
-                                    <div class="card-header">
-                                        <a class="btn" data-bs-toggle="collapse" href="#collapseseven">
+                                        <div id="pcollapsesix" class="collapse" data-bs-parent="#paccordion">
+                                            <div class="card-body">
+                                                <li>Linearity Property</li>
+                                                <pre id="p6one">
+import numpy as np
+a1=1
+a2=1
+x1=np.array([1,2,3,4])
+x2=np.array([1,1,1,1])
+x=(a1*x1)+(a2*x2)
+lhs=np.fft.fft(x)
+rhs=(np.fft.fft(x1)*a1)+(np.fft.fft(x2)*a2)
+print("LHS=",lhs,"RHS=",rhs)
+print()
+if list(lhs) == list(rhs):
+    print("Linearity Property Is Satisfied")</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p6one')[0].textContent)">Copy</button>
+                                                <li><br>Parseval Property</li>
+                                                <pre id="p6two">
+import numpy as np
+x=np.array([1,2,3,4])
+N=4
+lhs = sum(abs(x)**2)
+rhs=(1/N)*(sum(abs(np.fft.fft(x))**2))
+print("LHS=",lhs,"RHS=",rhs)
+print()
+if lhs == rhs:
+    print("Parseval Is Satisfied")</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p6two')[0].textContent)">Copy</button>
+                                                <li><br>Circular Convolution</li>
+                                                <pre id="p6three">
+import numpy as np
+x1=np.array([1,2,3,4])
+x2=np.array([1,1,1,1])
+X1=np.fft.fft(x1)
+X2=np.fft.fft(x2)
+X=X1 * X2
+X=np.fft.ifft(X)
+X = np.real(X)
+print("Circular Convolution : X=",X)</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p6three')[0].textContent)">Copy</button>
+                                                <li><br>Linear Convolution</li>
+                                                <pre id="p6four">
+import numpy as np
+x1=[1,2,3,4]
+x2=[1,1,1,1]
+m=len(x1)
+n=len(x2)
+N=m+n-1
+x1=x1 + [0]*(N-m)
+x2=x2 + [0]*(N-n)
+print("x1=",x1)
+print("x2=",x2)
+X1=np.fft.fft(x1)
+X2=np.fft.fft(x2)
+X = X1 * X2
+X = np.fft.ifft(X)
+X = np.real(X)
+print("X=",X)</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p6four')[0].textContent)">Copy</button>
+                                                <li><br>Reactangular Pulse</li>
+                                                <pre id="p6five">
+import numpy as np
+import matplotlib.pyplot as plt
+fs=1000
+x=np.zeros(1000)
+y=np.zeros(1000)
+t=[i for i in np.arange(-0.5,0.5,1/fs)]
+for i in range(500):
+    x[i+250]=1
+f=[i for i in np.arange(-fs/2,fs/2)]
+y=np.fft.fft(x)
+y=np.fft.fftshift(y)
+plt.subplot(2,1,1)
+plt.plot(t,x)
+plt.subplot(2,1,2)
+plt.plot(f,abs(y))
+plt.show()</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p6five')[0].textContent)">Copy</button>
+                                                <li><br>Sinc Function</li>
+                                                <pre id="p6six">
+import numpy as np
+import matplotlib.pyplot as plt
+from math import pi
+fs=1000
+y=np.zeros(1000)
+t=[i for i in np.arange(-0.5,0.5,1/fs)]
+x=[np.sinc(60*pi*i) for i in np.arange(-0.5,0.5,1/fs)]
+f=[i for i in np.arange(-fs/2,fs/2)]
+y=np.fft.fft(x)
+y=np.fft.fftshift(y)
+plt.subplot(2,1,1)
+plt.plot(t,x)
+plt.subplot(2,1,2)
+plt.plot(f,abs(y))
+plt.show()</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p6six')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#pcollapseseven">
                                             7. Design and implementation of Low pass and High pass FIR filter
                                         </a>
-                                    </div>
-                                    <div id="collapseseven" class="collapse" data-bs-parent="#accordion">
-                                        <div class="card-body">
-                                            <pre id="p7">
-                                                Find A Plan
-                                            </pre>
-                                            <button class="butt"
-                                                onclick="copytext(document.querySelectorAll('#p7')[0].textContent)">Copy</button>
                                         </div>
-                                    </div>
-                                    <div class="card-header">
-                                        <a class="btn" data-bs-toggle="collapse" href="#collapseeight">
+                                        <div id="pcollapseseven" class="collapse" data-bs-parent="#paccordion">
+                                            <div class="card-body">
+                                                <pre id="p7">
+import numpy as np
+import matplotlib.pyplot as plt
+from math import pi,sin,cos
+from scipy.io import wavfile
+fs,x=wavfile.read('for1.wav')
+x=x[:,0]
+x=np.double(x)
+N=91
+fc=1000
+wc=(2*pi*(fc/fs))
+alp=(N-1)/2
+hd=np.zeros((N))
+w=np.zeros((N))
+h=np.zeros((N))
+for n in range(N):
+    if n==alp:
+        hd[n]=(1/pi)*(wc)
+        w[n]=1
+        h[n]=hd[n]*w[n]
+    else:
+        hd[n]=sin(wc*(n-alp))/(pi*(n-alp))
+        w[n]=0.54-0.46*cos((2*pi*n)/(N-1))
+        h[n]=hd[n]*w[n]
+
+y=np.convolve(x,h,'same')
+plt.subplot(2,1,1)
+plt.plot(x)
+plt.subplot(2,1,2)
+plt.plot(y)
+plt.show()
+y1=np.int16(y)
+wavfile.write('result.wav',fs,y1)
+plt.show()</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p7')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#pcollapseeight">
                                             8. Design and implementation of a digital IIR filter
                                         </a>
-                                    </div>
-                                    <div id="collapseeight" class="collapse" data-bs-parent="#accordion">
-                                        <div class="card-body">
-                                            <pre id="p8">
-                                                code
-                                            </pre>
-                                            <button class="butt"
-                                                onclick="copytext(document.querySelectorAll('#p8')[0].textContent)">Copy</button>
                                         </div>
-                                    </div>
-                                    <div class="card-header">
-                                        <a class="btn" data-bs-toggle="collapse" href="#collapsenine">
+                                        <div id="pcollapseeight" class="collapse" data-bs-parent="#paccordion">
+                                            <div class="card-body">
+                                                <pre id="p8">
+import numpy as np
+import matplotlib.pyplot as plt
+import dspalgorithm as dsp
+from scipy import signal
+from scipy.io import wavfile
+fp=1500
+fs=3000
+F=8000
+Ap=3
+As=10
+[N,wc]=dsp.buttord(fp,fs,Ap,As,F)
+[b,a]=signal.butter(N,wc)
+print(N,wc)
+print(b,a)
+fs,x=wavfile.read('for2.wav')
+x=np.double(x)
+y=signal.lfilter(b,a,x)
+plt.subplot(2,1,1)
+plt.plot(x)
+plt.subplot(2,1,2)
+plt.plot(y)
+plt.show()</pre>
+                                                <button class="butt" onclick="copytext(document.querySelectorAll('#p8')[0].textContent)">Copy</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header">
+                                            <a class="btn" data-bs-toggle="collapse" href="#pcollapsenine">
                                             9. Obtain the Linear convolution of two sequences.
                                         </a>
-                                    </div>
-                                    <div id="collapsenine" class="collapse" data-bs-parent="#accordion">
-                                        <div class="card-body">
+                                        </div>
+                                        <div id="pcollapsenine" class="collapse" data-bs-parent="#paccordion">
+                                            <div class="card-body">
+                                                <code>
                                             <pre id="p9">
-                                                code
-                                            </pre>
+#include &lt;stdio.h&gt;
+int main(void)
+{
+	int m,n,N,i,j,x[10],*y,h[10];
+	y = (int *)0x00001000;
+	printf("Enter The Length Of First Sequence x[n]:");
+	scanf("%d",&m);
+	printf("Enter The Sequence:");
+	for (i=0;i&lt;m;i++)
+		scanf("%d",&x[i]);
+	printf("Enter The Length Of Second Sequence h[n]:");
+	scanf("%d",&n);
+	printf("Enter The Sequence:");
+	for (i=0;i&lt;n;i++)
+		scanf("%d",&h[i]);
+	N=m+n-1;
+	for(i=m;i&lt;N;i++)
+		x[i]=0;
+	for(i=n;i&lt;N;i++)
+		h[i]=0;
+	for (i=0;i&lt;N;i++)
+	{
+		y[i]=0;
+		for
+		(j=0;j&lt;=i;j++)
+		{
+			y[i]=y[i]+(x[j]*h[i-j]);
+		}
+		printf("y[%d]=%d\n",i,y[i]);
+	}
+}</pre>
                                             <button class="butt"
                                                 onclick="copytext(document.querySelectorAll('#p9')[0].textContent)">Copy</button>
                                         </div>
                                     </div>
                                     <div class="card-header">
-                                        <a class="btn" data-bs-toggle="collapse" href="#collapseten">
+                                        <a class="btn" data-bs-toggle="collapse" href="#pcollapseten">
                                             10. Compute Circular convolution of two sequences.
                                         </a>
                                     </div>
-                                    <div id="collapseten" class="collapse" data-bs-parent="#accordion">
+                                    <div id="pcollapseten" class="collapse" data-bs-parent="#paccordion">
                                         <div class="card-body">
                                             <pre id="p10">
-                                                code
-                                            </pre>
+#include &lt;stdio.h&gt;
+#include &lt;math.h&gt;
+int main (void)
+{
+	int N,k,n,mod;
+	int x[10],*y,h[10];
+	y=(int *)0x0000100;
+	printf("Enter The Value Of N:");
+	scanf("%d",&N);
+	printf("Enter The Elements Of X:");
+	for(n=0;n&lt;N;n++)
+		scanf("%d",&x[n]);
+	printf("Enter The Elements Of H:");
+	for(n=0;n&lt;N;n++)
+		scanf("%d",&h[n]);
+	for(n=0;n&lt;N;n++)
+	{
+		y[n]=0;
+		for(k=0;k&lt;N;k++)
+		{
+			mod=(n-k)-floor((float)(n-k)/N)*N;
+			y[n]=y[n]+x[k]*h[mod];
+		}
+		printf("Y[%d]=%d\n",n,y[n]);
+	}
+}</pre>
                                             <button class="butt"
                                                 onclick="copytext(document.querySelectorAll('#p10')[0].textContent)">Copy</button>
                                         </div>
                                     </div>
                                     <div class="card-header">
-                                        <a class="btn" data-bs-toggle="collapse" href="#collapseeleven">
+                                        <a class="btn" data-bs-toggle="collapse" href="#pcollapseeleven">
                                             11. Compute the N-point DFT of a given sequence.
                                         </a>
                                     </div>
-                                    <div id="collapseeleven" class="collapse" data-bs-parent="#accordion">
+                                    <div id="pcollapseeleven" class="collapse" data-bs-parent="#paccordion">
                                         <div class="card-body">
                                             <pre id="p11">
-                                                code
-                                            </pre>
+#include&lt;stdio.h&gt;
+#include&lt;math.h&gt;
+int main(void)
+{
+	int x[10];
+	float Xr[10];
+	float Xi[10];
+	int k,n,N;
+	float pi=3.1415;
+	printf("Enter Value For N:");
+	scanf("%d",&N);
+	printf("Enter Value For x[n]:");
+	for (n=0;n&lt;N;n++)
+	{
+		scanf(%d,&x[n]);
+	}
+	for(k=0;k&lt;N;k++)
+	{
+		for(n=0;n&lt;N;n++)
+		{
+			Xr[k]=Xr[k]+(x[n]*cos(2*pi*k*n/N));
+			Xi[k]=Xi[k]-(x[n]*sin(2*pi*k*n/N));
+		}
+	printf("X[%d] = %f + i%f\n",k,Xr[k],Xi[k]);
+	}
+}</pre>
                                             <button class="butt"
                                                 onclick="copytext(document.querySelectorAll('#p11')[0].textContent)">Copy</button>
                                         </div>
                                     </div>
                                     <div class="card-header">
-                                        <a class="btn" data-bs-toggle="collapse" href="#collapsetwelve">
+                                        <a class="btn" data-bs-toggle="collapse" href="#pcollapsetwelve">
                                             12. Determine the Impulse response of first order and second order system.
                                         </a>
                                     </div>
-                                    <div id="collapsetwelve" class="collapse" data-bs-parent="#accordion">
+                                    <div id="pcollapsetwelve" class="collapse" data-bs-parent="#paccordion">
                                         <div class="card-body">
                                             <pre id="p12">
-                                                code
-                                            </pre>
+#include &lt;stdio.h&gt;    
+#include &lt;math.h&gt;
+void filter(int b[],int a[],int x[],int y[],int M1,int N1,int N)
+{
+	int n,term1,term2,k;
+	for(n=M1+1;n&lt;N;n++)
+		b[n]=0;
+	for(n=N1+1;n&lt;N;n++)
+		a[n]=0;
+	for(n=0;n&lt;N;n++)
+	{
+		y[n]=0;
+		term1=0;
+		term2=0;
+		for(k=0;k&lt;=N;k++)
+		{
+			term1=term1-a[k]*y[n-k];
+			term2=term2+b[k]*x[n-k];
+		}
+		y[n]=term1+term2;
+	}
+}
+int main(void)
+{
+	int M1,N1,N,b[10],a[10],x[10],y[10],n;
+	printf("Enter the order of Nr Coeff: ");
+	scanf("%d",&M1);
+	printf("Enter the order of Dr Coeff: ");
+	scanf("%d",&N1);
+	printf("Enter the length of x[n]:");
+	scanf("%d",&N);
+	printf("Enter the Nr Coeff:");
+	for(n=0;n&lt;M1;n++)
+		scanf("%d",&b[n]);
+	printf("Enter the Dr Coeff:");
+	for(n=0;n&lt;N1;n++)
+		scanf("%d",&a[n]);
+	printf("Enter the sequence of x[n]");
+	for(n=0;n&lt;N;n++)
+		scanf("%d",&x[n]);
+	filter(b,a,x,y,M1,N1,N);
+	for(n=0;n&lt;N;n++)
+		printf("y[%d]=%d\n",n,y[n]);
+	return 0;
+}</pre>
                                             <button class="butt"
                                                 onclick="copytext(document.querySelectorAll('#p12')[0].textContent)">Copy</button>
                                         </div>
                                     </div>
                                     <div class="card-header">
-                                        <a class="btn" data-bs-toggle="collapse" href="#collapsethirteen">
+                                        <a class="btn" data-bs-toggle="collapse" href="#pcollapsethirteen">
                                             13. Generation of Sine wave and standard test signals.
                                         </a>
                                     </div>
-                                    <div id="collapsethirteen" class="collapse" data-bs-parent="#accordion">
+                                    <div id="pcollapsethirteen" class="collapse" data-bs-parent="#paccordion">
                                         <div class="card-body">
                                             <pre id="p13">
-                                                code
+#include &lt;stdio.h&gt;
+#include &lt;math.h&gt;
+#define pi 3.1417
+int main(void)
+{
+	int n,fm,ch;
+	float t,*x;
+	x=(float *)0x0000100;
+	printf("Enter your choice:\n 1.Sine Wave\n 2.Cosine Wave\n 3.Square Wave\n");
+	scanf("%d",&ch);
+	switch(ch)
+	{
+	case 1:
+		printf("Enter the fundamental freq of Sine Signal: ");
+		scanf("%d",&fm);
+		t=0;
+		for(n=0;n&lt;100;n++)
+		{
+			x[n]=sin(2*pi*fm*t);
+			printf("x[%f]=%f\n",t,x[n]);
+			t=t+0.01;
+		}
+		break;
+	case 2:
+		printf("Enter the fundamental freq of Cosine Signal: ");
+		scanf("%d",&fm);
+		t=0;
+		for(n=0;n&lt;100;n++)
+		{
+			x[n]=cos(2*pi*fm*t);
+			printf("x[%f]=%f\n",t,x[n]);
+			t=t+0.01;
+		}
+		break;
+	case 3:
+		for (n=0;n&lt;25;n++)
+		{
+			x[n]=1;
+			x[n+25]=0;
+			x[n+50]=1;
+			x[n+75]=0;
+		}
+		for (n=0;n&lt;100;n++)
+			printf("x[%f]=%f\n",n,x[n]);
+		break;
+	}
+}
                                             </pre>
                                             <button class="butt"
                                                 onclick="copytext(document.querySelectorAll('#p13')[0].textContent)">Copy</button>
@@ -543,29 +2067,11 @@ plt.show()
                                     </div>
 
                                 </div>
-
                             </div>
-
-                            <p>
-                        </ul>
+                            <p>              
+                        </ul>    
                     </div>
-
-                    <div class="tab-pane fade text-left text-light" id="one" role="tabpanel"
-                        aria-labelledby="profile-tab">
-                        <h3 class="none">Verification Of Sampling Theorem</h3>
-                        <span class="date-range code-font">Sampling theorem states that band limited signal f(t) can
-                            be reconstructed from its samples if the sampling frequency is greater than the two
-                            times the highest frequency component of the signal. i.e fs>=2fm
-                        </span>
-                        <ul class="none">
-                            <p class="none">
-
-
-                            </p>
-                        </ul>
-                    </div>
-
-
+                   
                 </div>
             </div>
         </div>
