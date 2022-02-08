@@ -307,12 +307,20 @@ ul a:hover::after {
 }
 
 @media only screen and (max-width: 600px) {
+    .navigationbar {
+        min-width: 400px;
+        padding: 0;
+    }
+    .logo {
+        padding-left: 2em;
+    }
     .nav {
         width: 18em;
         height: 20em;
+        margin-top: 0.5em;
     }
     .card {
-        margin-left: -2em;
+        margin-left: 0em;
     }
     .row {
         width: auto;
@@ -322,17 +330,11 @@ ul a:hover::after {
     .tab-pane {
         width: 20em;
         margin-top: 2em;
-        margin-left: 0.5em;
         padding: 0 0 0 0;
     }
-    .abc {
-        width: 5em;
-        margin: 0%;
-    }
-    .none ul {
-        margin-right: -50em;
-        width: 15.5em;
-        margin: 0%;
+    .none {
+        display: contents;
+        width: auto;
     }
     .forcode {
         white-space: nowrap;
@@ -345,6 +347,7 @@ ul a:hover::after {
         height: auto !important;
     }
     .ab input {
-        margin: 2em 0 0 2.5em;
+        margin-top: 2em;
+        width: auto;
     }
 }
