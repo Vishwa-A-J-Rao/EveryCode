@@ -30,6 +30,7 @@
     <div class="row p-5">
         <div class="ab">
             <div class="col-md mb-3">
+		<input id="searchbar" onkeyup="search_program()" type="text" name="search" placeholder="Search here">
                 <ul class="nav nav-pills flex-column" id="experienceTab" role="tablist">
 
 
@@ -2092,6 +2093,21 @@ int main(void)
             textArea.parentNode.removeChild(textArea);
         }
     </script>
+<script>
+    function search_program() {
+        let input = document.getElementById('searchbar').value
+        input = input.toLowerCase();
+        let x = document.getElementsByClassName('allprograms');
+
+        for (i = 0; i < x.length; i++) {
+            if (!x[i].innerHTML.toLowerCase().includes(input)) {
+                x[i].style.display = "none";
+            } else {
+                x[i].style.display = "list-item";
+            }
+        }
+    }
+</script>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'></script>
