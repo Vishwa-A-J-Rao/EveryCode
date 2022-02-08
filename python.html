@@ -29,7 +29,7 @@
     <div class="row p-5">
         <div class="ab">
             <div class="col-md mb-3">
-                <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Search here">
+                <input id="searchbar" onkeyup="search_program()" type="text" name="search" placeholder="Search here">
                 <ul class="nav nav-pills flex-column" id="experienceTab" role="tablist">
                     <li class="allprograms">
                         <a class="nav-link active" id="home-tab" data-toggle="tab" href="#basic" role="tab" aria-controls="home" aria-selected="true">Basics</a>
@@ -579,7 +579,7 @@ print("The Sorted List in Ascending Order : ", a)</pre>
         }
     </script>
     <script>
-        function search_animal() {
+        function search_program() {
             let input = document.getElementById('searchbar').value
             input = input.toLowerCase();
             let x = document.getElementsByClassName('allprograms');
