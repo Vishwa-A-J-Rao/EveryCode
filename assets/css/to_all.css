@@ -312,7 +312,7 @@ ul a:hover::after {
         padding: 0;
     }
     .logo {
-        padding-left: 2em;
+        padding-left: 2.2em;
     }
     .nav {
         width: 18em;
@@ -326,6 +326,9 @@ ul a:hover::after {
         width: auto;
         margin: auto;
         margin-left: -2em;
+    }
+    .col-md-10 {
+        display: contents;
     }
     .tab-pane {
         width: 20em;
