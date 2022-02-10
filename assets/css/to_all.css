@@ -577,7 +577,7 @@ ul a:hover::after {
         margin-top: -2em;
     }
     #searchbar {
-	width: auto;
+	width: 100%;
 	margin: 1em 2em 0em 3em;
     }
     .p-5 {
