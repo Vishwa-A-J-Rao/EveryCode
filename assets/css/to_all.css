@@ -578,6 +578,7 @@ ul a:hover::after {
     }
     #searchbar {
         margin-top: 1em;
+	width: auto;
     }
     .p-5 {
         margin-right: 2em;
