@@ -48,6 +48,8 @@ pre {
 .loog {
     margin: auto 0 auto auto;
     padding: 0;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 
@@ -126,7 +128,7 @@ svg {
     color: #ffffff;
     font-weight: bold;
     font-family: 'Poppins';
-    margin: auto -0.2em auto -0.2em;
+    margin: auto auto auto auto;
 }
 
 .hover-underline-animation:after {
@@ -577,8 +579,8 @@ ul a:hover::after {
         margin-top: -2em;
     }
     #searchbar {
-	width: 100%;
-	margin: 1em 2em 0em 3em;
+        width: auto;
+        margin: 1em 2em 0em 3em;
     }
     .p-5 {
         margin-right: 2em;
