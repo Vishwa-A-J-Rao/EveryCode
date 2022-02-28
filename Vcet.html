@@ -115,7 +115,7 @@
     <section class="u-clearfix u-image u-shading u-section-1" id="sec-c046" data-image-width="1920" data-image-height="1080">
         <div class="u-clearfix u-sheet-1">
 
-           <div class="row p-5">
+            <div class="row p-5">
                 <div class="ab">
                     <div class="col-md mb-3">
                         <input id="searchbar" onkeyup="search_program()" type="text" name="search" placeholder="Search here">
@@ -161,21 +161,20 @@
                             </div>
 
                             <div class="tab-pane fade text-left text-light" id="cpc" role="tabpanel" aria-labelledby="profile-tab">
-                                <div id="myDIV" class="mt-3">
-                                    <h3 class="none" style="font-size: 30px;">Computer Programming Laboratory</h3>
-                                    <span class="date-range code-font"><br>Lab Programmes for CPC Laboratory</span>
-                                    <ul class="none">
-                                        <p class="none">
-                                            <div id="cpcaccordion">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#cpccollapseone">
+                                <h3 class="none" style="font-size: 30px;">Computer Programming Laboratory</h3>
+                                <span class="date-range code-font"><br>Lab Programmes for CPC Laboratory</span>
+                                <ul class="none">
+                                    <p class="none">
+                                        <div id="cpcaccordion">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#cpccollapseone">
                                                     1. Simulation of a Simple Calculator
                                                 </a>
-                                                    </div>
-                                                    <div id="cpccollapseone" class="collapse" data-bs-parent="#cpcaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="cpcp1">
+                                                </div>
+                                                <div id="cpccollapseone" class="collapse" data-bs-parent="#cpcaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="cpcp1">
 #include &lt;stdio.h&gt;
 void main()
 {
@@ -201,20 +200,20 @@ switch(op)
     default : printf("Invalid expression\n");
 } 
 }</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp1 ')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp1 ')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#cpccollapsetwo">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#cpccollapsetwo">
                                                     2. Compute the roots of a quadratic equation by accepting the
                                                     coefficients.
                                                     Print appropriate messages.
                                                 </a>
-                                                    </div>
-                                                    <div id="cpccollapsetwo" class="collapse" data-bs-parent="#cpcaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="cpcp2">
+                                                </div>
+                                                <div id="cpccollapsetwo" class="collapse" data-bs-parent="#cpcaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="cpcp2">
 #include&lt;stdio.h&gt;
 #include&lt;math.h&gt;
 #include&lt;stdlib.h&gt;
@@ -249,23 +248,23 @@ else
     printf("Root2=%f-i%f\n",real,imag);
 }
 }</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp2 ')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp2 ')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#cpccollapsethree">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#cpccollapsethree">
                                                     3. Write a program to read the name of the user, the number of units
                                                     consumed,
                                                     and print out the charges.
                                                 </a>
-                                                    </div>
-                                                    <div id="cpccollapsethree" class="collapse" data-bs-parent="#cpcaccordion">
-                                                        <div class="card-body">
-                                                            <li>An electricity board charges the following rates for the use of electricity: for the first 200 units 80 paise per unit: for the next 100 units 90 paise per unit: beyond 300 units Rs 1 per unit.
-                                                                All users are charged a minimum of Rs. 100 as meter charge. If the total amount is more than Rs 400, then an additional surcharge of 15% of the total amount is charged. Write a program to
-                                                                read the name of the user, the number of units consumed, and print out the charges.</li>
-                                                            <pre class="codes" id="cpcp3">
+                                                </div>
+                                                <div id="cpccollapsethree" class="collapse" data-bs-parent="#cpcaccordion">
+                                                    <div class="card-body">
+                                                        <li>An electricity board charges the following rates for the use of electricity: for the first 200 units 80 paise per unit: for the next 100 units 90 paise per unit: beyond 300 units Rs 1 per unit. All
+                                                            users are charged a minimum of Rs. 100 as meter charge. If the total amount is more than Rs 400, then an additional surcharge of 15% of the total amount is charged. Write a program to read the
+                                                            name of the user, the number of units consumed, and print out the charges.</li>
+                                                        <pre class="codes" id="cpcp3">
 #include &lt;stdio.h&gt;
 void main()
 {
@@ -293,18 +292,18 @@ if(charge>400)
 }
 printf("Consumer Name: %s\n Units consumed: %f\n Rupees: %.2f \n",name,unit,charge);
 }</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp3 ')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp3 ')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#cpccollapsefour">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#cpccollapsefour">
                                                     4. Implement Binary Search on Integers / Names
                                                 </a>
-                                                    </div>
-                                                    <div id="cpccollapsefour" class="collapse" data-bs-parent="#cpcaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="cpcp4">
+                                                </div>
+                                                <div id="cpccollapsefour" class="collapse" data-bs-parent="#cpcaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="cpcp4">
 #include&lt;stdio.h&gt;
 #include&lt;stdlib.h&gt;
 void main()
@@ -340,19 +339,19 @@ while(low<=high)
 }
 printf("Unsuccessful Search\n");
 }</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp4 ')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp4 ')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#cpccollapsefive">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#cpccollapsefive">
                                                     5. Implement Matrix multiplication and validate the rules of
                                                     multiplication.
                                                 </a>
-                                                    </div>
-                                                    <div id="cpccollapsefive" class="collapse" data-bs-parent="#cpcaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="cpcp5">
+                                                </div>
+                                                <div id="cpccollapsefive" class="collapse" data-bs-parent="#cpcaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="cpcp5">
 #include&lt;stdio.h&gt;
 #include&lt;stdlib.h&gt;
 void main()
@@ -422,12 +421,12 @@ for(i=0;i&lt;m;i++)
 printf("\n");
 }
 }</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp5 ')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp5 ')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#cpccollapsesix">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#cpccollapsesix">
                                                     6. Compute sin(x)/cos(x) using Taylor series approximation. Compare
                                                     your
                                                     result
@@ -435,10 +434,10 @@ printf("\n");
                                                     appropriate
                                                     inferences.
                                                 </a>
-                                                    </div>
-                                                    <div id="cpccollapsesix" class="collapse" data-bs-parent="#cpcaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="cpcp6">
+                                                </div>
+                                                <div id="cpccollapsesix" class="collapse" data-bs-parent="#cpcaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="cpcp6">
 #include&lt;stdio.h&gt;
 #include&lt;math.h&gt;
 #define PI 3.1415927
@@ -463,18 +462,18 @@ do
 printf(“The calculated sine value is = %f\n” , sum);
 printf(“The value using library function is= %f”, sin(rad));
 }</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp6 ')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp6 ')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#cpccollapseseven">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#cpccollapseseven">
                                                     7. Sort the given set of N numbers using Bubble sort.
                                                 </a>
-                                                    </div>
-                                                    <div id="cpccollapseseven" class="collapse" data-bs-parent="#cpcaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="cpcp7">
+                                                </div>
+                                                <div id="cpccollapseseven" class="collapse" data-bs-parent="#cpcaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="cpcp7">
 #include&lt;stdio.h&gt;
 void main()
 {
@@ -509,21 +508,21 @@ for(i=0;i&lt;n;i++)
     printf("%d\t",a[i]);
 }
 }</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp7 ')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp7 ')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#cpccollapseeight">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#cpccollapseeight">
                                                     8. Write functions to implement string operations such as compare,
                                                     concatenate,
                                                     string
                                                     length. Convince the parameter passing techniques.
                                                 </a>
-                                                    </div>
-                                                    <div id="cpccollapseeight" class="collapse" data-bs-parent="#cpcaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="cpcp8">
+                                                </div>
+                                                <div id="cpccollapseeight" class="collapse" data-bs-parent="#cpcaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="cpcp8">
 #include&lt;stdio.h&gt;
 void stringlength(char str1[100])
 {
@@ -571,21 +570,21 @@ stringlength(str2);
 stringcompare(str1,str2);
 stringconcatenate(str1,str2);
 }</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp8 ')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp8 ')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#cpccollapsenine">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#cpccollapsenine">
                                                     9. Write functions to implement string operations such as compare,
                                                     concatenate,
                                                     string
                                                     length. Convince the parameter passing techniques.
                                                 </a>
-                                                    </div>
-                                                    <div id="cpccollapsenine" class="collapse" data-bs-parent="#cpcaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="cpcp9">
+                                                </div>
+                                                <div id="cpccollapsenine" class="collapse" data-bs-parent="#cpcaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="cpcp9">
 #include&lt;stdio.h&gt;
 struct student
 {
@@ -619,20 +618,20 @@ for(i=0;i&lt;n;i++)
     }
 }
 }</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp9 ')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp9 ')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#cpccollapseten">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#cpccollapseten">
                                                     10. Develop a program using pointers to compute the sum, mean and
                                                     standard
                                                     deviation of all elements stored in an array of n real numbers.
                                                 </a>
-                                                    </div>
-                                                    <div id="cpccollapseten" class="collapse" data-bs-parent="#cpcaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="cpcp10">
+                                                </div>
+                                                <div id="cpccollapseten" class="collapse" data-bs-parent="#cpcaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="cpcp10">
 #include &lt;stdio.h&gt;
 #include &lt;math.h&gt;
 void main()
@@ -664,18 +663,18 @@ for (i = 0; i &lt; n; i++)
 sd = sqrt(sum1 /n);
 printf("Standard Deviation = %.2f\n", sd);
 }</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp10 ')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp10 ')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#cpccollapseeleven">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#cpccollapseeleven">
                                                     11. Implement Recursive functions for Binary to Decimal Conversion.
                                                 </a>
-                                                    </div>
-                                                    <div id="cpccollapseeleven" class="collapse" data-bs-parent="#cpcaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="cpcp11">
+                                                </div>
+                                                <div id="cpccollapseeleven" class="collapse" data-bs-parent="#cpcaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="cpcp11">
 #include &lt;stdio.h&gt;
 int dec(int bin)
 {
@@ -691,42 +690,42 @@ printf("Enter a binary number\n");
 scanf("%d", &bin);
 printf("The decimal equivalent of %d is %d\n", bin, dec(bin));
 }</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp11 ')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#cpcp11 ')[0].textContent)">Copy</button>
                                                     </div>
-
                                                 </div>
+
                                             </div>
-                                        </p>
-                                    </ul>
-                                </div>
+                                        </div>
+                                    </p>
+                                </ul>
+                            </div>
 
-                                <div class="tab-pane fade text-left text-light" id="yeartwo" role="tabpanel" aria-labelledby="profile-tab">
-                                    <h3 class="none">2nd Year Lab Programmes</h3>
-                                    <span class="date-range code-font">All Lab Programmes</span>
-                                    <ul class="none">
-                                        <p class="none">
-                                            Need To Fill
-                                        </p>
-                                    </ul>
-                                </div>
+                            <div class="tab-pane fade text-left text-light" id="yeartwo" role="tabpanel" aria-labelledby="profile-tab">
+                                <h3 class="none">2nd Year Lab Programmes</h3>
+                                <span class="date-range code-font">All Lab Programmes</span>
+                                <ul class="none">
+                                    <p class="none">
+                                        Need To Fill
+                                    </p>
+                                </ul>
+                            </div>
 
-                                <div class="tab-pane fade text-left text-light" id="dsl" role="tabpanel" aria-labelledby="profile-tab">
-                                    <h3 class="none" style="font-size: 30px;">Data Structures Laboratory : 18CSL38</h3>
-                                    <span class="date-range code-font"><br>Lab Programmes for Data Structure
+                            <div class="tab-pane fade text-left text-light" id="dsl" role="tabpanel" aria-labelledby="profile-tab">
+                                <h3 class="none" style="font-size: 30px;">Data Structures Laboratory : 18CSL38</h3>
+                                <span class="date-range code-font"><br>Lab Programmes for Data Structure
                                     Laboratory</span>
-                                    <ul class="none">
-                                        <p class="none">
-                                            <div id="dslaccordion">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#dslcollapseone">
+                                <ul class="none">
+                                    <p class="none">
+                                        <div id="dslaccordion">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#dslcollapseone">
                                                     1. INSERTING AND DELETING ELEMENTS OF AN ARRAY
                                                 </a>
-                                                    </div>
-                                                    <div id="dslcollapseone" class="collapse" data-bs-parent="#dslaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="dslp1">
+                                                </div>
+                                                <div id="dslcollapseone" class="collapse" data-bs-parent="#dslaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="dslp1">
 #include&lt;stdio.h&gt;
 #include&lt;stdlib.h&gt;
 int a[20];
@@ -834,18 +833,18 @@ int delete()
        printf(" Invalid Position");
     }
 }</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#dslp1 ')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#dslp1 ')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#dslcollapsetwo">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#dslcollapsetwo">
                                                     2. FIND AND REPLACE PATTERN STRING IN MAIN STRING
                                                 </a>
-                                                    </div>
-                                                    <div id="dslcollapsetwo" class="collapse" data-bs-parent="#dslaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="dslp2">
+                                                </div>
+                                                <div id="dslcollapsetwo" class="collapse" data-bs-parent="#dslaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="dslp2">
 #include&lt;stdio.h&gt;
 #include&lt;string.h&gt;
 void read_string();
@@ -904,18 +903,18 @@ void pattern_match()
         printf("\nThe RESULTANT string is:%s\n " ,ans);
     }
 }</pre>
-                                                            <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp2')[0].textContent) ">Copy</button>
-                                                        </div>
+                                                        <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp2')[0].textContent) ">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header ">
-                                                        <a class="btn " data-bs-toggle="collapse " href="#dslcollapsethree ">
+                                                <div class="card-header ">
+                                                    <a class="btn " data-bs-toggle="collapse " href="#dslcollapsethree ">
                                                     3. SIMULATING STACK OPERATIONS TO VERIFY PALINDROME
                                                 </a>
-                                                    </div>
-                                                    <div id="dslcollapsethree " class="collapse " data-bs-parent="#dslaccordion ">
-                                                        <div class="card-body ">
-                                                            <pre class="codes " id="dslp3 ">
+                                                </div>
+                                                <div id="dslcollapsethree " class="collapse " data-bs-parent="#dslaccordion ">
+                                                    <div class="card-body ">
+                                                        <pre class="codes " id="dslp3 ">
 #include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
 int stack[6],rev[6];
@@ -1012,18 +1011,18 @@ int pali()
     }
     return flag;
 }</pre>
-                                                            <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp3')[0].textContent) ">Copy</button>
-                                                        </div>
+                                                        <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp3')[0].textContent) ">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header ">
-                                                        <a class="btn " data-bs-toggle="collapse " href="#dslcollapsefour ">
+                                                <div class="card-header ">
+                                                    <a class="btn " data-bs-toggle="collapse " href="#dslcollapsefour ">
                                                     4. INFIX EXPRESSION TO POSTFIX EXPRESSION
                                                 </a>
-                                                    </div>
-                                                    <div id="dslcollapsefour " class="collapse " data-bs-parent="#dslaccordion ">
-                                                        <div class="card-body ">
-                                                            <pre class="codes " id="dslp4 ">
+                                                </div>
+                                                <div id="dslcollapsefour " class="collapse " data-bs-parent="#dslaccordion ">
+                                                    <div class="card-body ">
+                                                        <pre class="codes " id="dslp4 ">
 #define size 50 /* size of stack */
 #include &lt;ctype.h&gt;
 #include &lt;stdio.h&gt;
@@ -1088,18 +1087,18 @@ void main() /* main program */
     pofx[k] = '\0'; /* make pofx as valid string */
     printf("\n\n Given infix expression: %s\n postfix expression is: %s\n ", infx, pofx);
 }</pre>
-                                                            <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp4')[0].textContent) ">Copy</button>
-                                                        </div>
+                                                        <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp4')[0].textContent) ">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header ">
-                                                        <a class="btn " data-bs-toggle="collapse " href="#dslcollapsefive ">
+                                                <div class="card-header ">
+                                                    <a class="btn " data-bs-toggle="collapse " href="#dslcollapsefive ">
                                                     5. SUFFIX EXPRESSION EVALUATION AND TOWERS OF HANOI PROBLEM
                                                 </a>
-                                                    </div>
-                                                    <div id="dslcollapsefive " class="collapse " data-bs-parent="#dslaccordion ">
-                                                        <div class="card-body ">
-                                                            <pre class="codes " id="dslp5 ">
+                                                </div>
+                                                <div id="dslcollapsefive " class="collapse " data-bs-parent="#dslaccordion ">
+                                                    <div class="card-body ">
+                                                        <pre class="codes " id="dslp5 ">
 #include&lt;ctype.h&gt;
 #include&lt;stdio.h&gt;
 float stack[20];
@@ -1203,18 +1202,18 @@ void towers(int num, char frompeg, char topeg, char auxpeg)
     printf("\n move disk %d from peg %c to peg %c ", num, frompeg, topeg); 
     towers(num - 1, auxpeg, topeg, frompeg); 
 }</pre>
-                                                            <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp5')[0].textContent) ">Copy</button>
-                                                        </div>
+                                                        <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp5')[0].textContent) ">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header ">
-                                                        <a class="btn " data-bs-toggle="collapse " href="#dslcollapsesix ">
+                                                <div class="card-header ">
+                                                    <a class="btn " data-bs-toggle="collapse " href="#dslcollapsesix ">
                                                     6. SIMULATING CIRCULAR QUEUE USING ARRAY
                                                 </a>
-                                                    </div>
-                                                    <div id="dslcollapsesix " class="collapse " data-bs-parent="#dslaccordion ">
-                                                        <div class="card-body ">
-                                                            <pre class="codes " id="dslp6 ">
+                                                </div>
+                                                <div id="dslcollapsesix " class="collapse " data-bs-parent="#dslaccordion ">
+                                                    <div class="card-body ">
+                                                        <pre class="codes " id="dslp6 ">
 #include &lt;string.h&gt;
 #include &lt;stdio.h&gt;
 #define SIZE 5
@@ -1294,18 +1293,18 @@ void CQ_Display()
         }
     }
 }</pre>
-                                                            <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp6')[0].textContent) ">Copy</button>
-                                                        </div>
+                                                        <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp6')[0].textContent) ">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header ">
-                                                        <a class="btn " data-bs-toggle="collapse " href="#dslcollapseseven ">
+                                                <div class="card-header ">
+                                                    <a class="btn " data-bs-toggle="collapse " href="#dslcollapseseven ">
                                                     7. SIMULATING STACK AND QUEUE USING LINKED LIST
                                                 </a>
-                                                    </div>
-                                                    <div id="dslcollapseseven " class="collapse " data-bs-parent="#dslaccordion ">
-                                                        <div class="card-body ">
-                                                            <pre class="codes " id="dslp7 ">
+                                                </div>
+                                                <div id="dslcollapseseven " class="collapse " data-bs-parent="#dslaccordion ">
+                                                    <div class="card-body ">
+                                                        <pre class="codes " id="dslp7 ">
 #include&lt;stdio.h&gt;
 #include&lt;stdlib.h&gt;
 #include&lt;string.h&gt;
@@ -1479,18 +1478,18 @@ void main()
         }
     }
 }</pre>
-                                                            <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp7')[0].textContent) ">Copy</button>
-                                                        </div>
+                                                        <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp7')[0].textContent) ">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header ">
-                                                        <a class="btn " data-bs-toggle="collapse " href="#dslcollapseeight ">
+                                                <div class="card-header ">
+                                                    <a class="btn " data-bs-toggle="collapse " href="#dslcollapseeight ">
                                                     8. EMPLOYEE DATA MAINTENANCE USING DOUBLY LINKED LIST
                                                 </a>
-                                                    </div>
-                                                    <div id="dslcollapseeight " class="collapse " data-bs-parent="#dslaccordion ">
-                                                        <div class="card-body ">
-                                                            <pre class="codes " id="dslp8 ">
+                                                </div>
+                                                <div id="dslcollapseeight " class="collapse " data-bs-parent="#dslaccordion ">
+                                                    <div class="card-body ">
+                                                        <pre class="codes " id="dslp8 ">
 #include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
 #include &lt;string.h&gt;
@@ -1724,18 +1723,18 @@ void del_end()
         }
     }
 }</pre>
-                                                            <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp8')[0].textContent) ">Copy</button>
-                                                        </div>
+                                                        <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp8')[0].textContent) ">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header ">
-                                                        <a class="btn " data-bs-toggle="collapse " href="#dslcollapsenine ">
+                                                <div class="card-header ">
+                                                    <a class="btn " data-bs-toggle="collapse " href="#dslcollapsenine ">
                                                     9. POLYNOMIAL EVALUATION USING SINGLY CIRCULAR LIST
                                                 </a>
-                                                    </div>
-                                                    <div id="dslcollapsenine " class="collapse " data-bs-parent="#dslaccordion ">
-                                                        <div class="card-body ">
-                                                            <pre class="codes " id="dslp9 ">
+                                                </div>
+                                                <div id="dslcollapsenine " class="collapse " data-bs-parent="#dslaccordion ">
+                                                    <div class="card-body ">
+                                                        <pre class="codes " id="dslp9 ">
 #include&lt;stdio.h&gt;
 #include&lt;stdlib.h&gt;
 #include&lt;math.h&gt;
@@ -1918,18 +1917,18 @@ void main()
     }while(ans=='Y'||ans=='y');
 }
     </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#dslp9')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#dslp9')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#dslcollapseten">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#dslcollapseten">
                                                     10. TREE TRAVERSALS ON BINARY SEARCH TREE
                                                 </a>
-                                                    </div>
-                                                    <div id="dslcollapseten" class="collapse" data-bs-parent="#dslaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="dslp10">
+                                                </div>
+                                                <div id="dslcollapseten" class="collapse" data-bs-parent="#dslaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="dslp10">
 #include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
 struct BST
@@ -2102,18 +2101,18 @@ void main()
         }
     }
 }</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#dslp10')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#dslp10')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#dslcollapseeleven">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#dslcollapseeleven">
                                                     11. GRAPH BASED TRAVERSAL METHODS – BFS & DFS
                                                 </a>
-                                                    </div>
-                                                    <div id="dslcollapseeleven" class="collapse" data-bs-parent="#dslaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="dslp11">
+                                                </div>
+                                                <div id="dslcollapseeleven" class="collapse" data-bs-parent="#dslaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="dslp11">
 #include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
 int a[20][20],q[20],visited[20],reach[10],n,i,j,f=0,r=-1,count=0;
@@ -2187,18 +2186,18 @@ void main()
         case 3: exit(0);
     }
 }</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#dslp11')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#dslp11')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#dslcollapsetwelve">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#dslcollapsetwelve">
                                                     12. LINEAR PROBING DEMONSTRATION USING HASH TABLE
                                                 </a>
-                                                    </div>
-                                                    <div id="dslcollapsetwelve" class="collapse" data-bs-parent="#dslaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="dslp12">
+                                                </div>
+                                                <div id="dslcollapsetwelve" class="collapse" data-bs-parent="#dslaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="dslp12">
 #include&lt;stdio.h&gt;
 #include&lt;stdlib.h&gt;
 #define MAX 100 /* size of hash table*/
@@ -2301,19 +2300,19 @@ void display(int a[MAX])
         break;
     }
 }</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#dslp12')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#dslp12')[0].textContent)">Copy</button>
                                                     </div>
-
                                                 </div>
+
                                             </div>
-                                        </p>
-                                    </ul>
-                                </div>
+                                        </div>
+                                    </p>
+                                </ul>
+                            </div>
 
 
 
-                                <!-- <div class="tab-pane fade text-left text-light" id="java" role="tabpanel" aria-labelledby="profile-tab">
+                            <!-- <div class="tab-pane fade text-left text-light" id="java" role="tabpanel" aria-labelledby="profile-tab">
                     <h3 class="none">Name</h3>
                     <span class="date-range code-font">Description</span>
                     <ul class="none">
@@ -2436,21 +2435,21 @@ CODE 8
                         </p>
                     </ul>
                 </div> -->
-                                <div class="tab-pane fade text-left text-light" id="java" role="tabpanel" aria-labelledby="profile-tab">
-                                    <h3 class="none" style="font-size: 30px;">3rd Year Lab Programmes</h3>
-                                    <span class="date-range code-font"><br>Lab Programmes for CN Laboratory</span>
-                                    <ul class="none">
-                                        <p class="none">
-                                            <div id="jaccordion">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#jcollapseone">
+                            <div class="tab-pane fade text-left text-light" id="java" role="tabpanel" aria-labelledby="profile-tab">
+                                <h3 class="none" style="font-size: 30px;">3rd Year Lab Programmes</h3>
+                                <span class="date-range code-font"><br>Lab Programmes for CN Laboratory</span>
+                                <ul class="none">
+                                    <p class="none">
+                                        <div id="jaccordion">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#jcollapseone">
                                                     1. ERROR DETECTING CODE USING CRC-CCITT
                                                 </a>
-                                                    </div>
-                                                    <div id="jcollapseone" class="collapse" data-bs-parent="#jaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="p1j">
+                                                </div>
+                                                <div id="jcollapseone" class="collapse" data-bs-parent="#jaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="p1j">
 package crc;
 import java.util.Scanner;
 public class Crc {
@@ -2546,18 +2545,18 @@ public static void makeerror(int pos) {
 }
 }
                                         </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p1j')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p1j')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#jcollapsetwo">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#jcollapsetwo">
                                                     2. SHORTEST PATH BETWEEN VERTICES USING BELLMAN-FORD ALGORITHM
                                                 </a>
-                                                    </div>
-                                                    <div id="jcollapsetwo" class="collapse" data-bs-parent="#jaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="p2j">
+                                                </div>
+                                                <div id="jcollapsetwo" class="collapse" data-bs-parent="#jaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="p2j">
 package bellmanford;
 import java.util.Scanner;
 public class BellmanFord{
@@ -2629,19 +2628,19 @@ public static void main(String... arg){
 }
 }
                                         </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p2j')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p2j')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#jcollapsethree">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#jcollapsethree">
                                                     3. TCP/IP
                                                 </a>
-                                                    </div>
-                                                    <div id="jcollapsethree" class="collapse" data-bs-parent="#jaccordion">
-                                                        <div class="card-body">
-                                                            <li>Server.java:</li>
-                                                            <pre class="codes" id="p3ja">
+                                                </div>
+                                                <div id="jcollapsethree" class="collapse" data-bs-parent="#jaccordion">
+                                                    <div class="card-body">
+                                                        <li>Server.java:</li>
+                                                        <pre class="codes" id="p3ja">
 package server;
 import java.net.*; 
 import java.io.*;
@@ -2669,9 +2668,9 @@ public static void main(String[] args) throws Exception{
 }
 }
                                             </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p3ja')[0].textContent)">Copy</button>
-                                                            <li><br>Client.java:</li>
-                                                            <pre class="codes" id="p3jb">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p3ja')[0].textContent)">Copy</button>
+                                                        <li><br>Client.java:</li>
+                                                        <pre class="codes" id="p3jb">
 package client;
 import java.net.*;
 import java.io.*;
@@ -2696,19 +2695,19 @@ public static void main(String[] args) throws Exception{
 }
 }    
                                             </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p3jb')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p3jb')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#jcollapsefour">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#jcollapsefour">
                                                     4. UDP
                                                 </a>
-                                                    </div>
-                                                    <div id="jcollapsefour" class="collapse" data-bs-parent="#jaccordion">
-                                                        <div class="card-body">
-                                                            <li>Udpserver.java:</li>
-                                                            <pre class="codes" id="p4ja">
+                                                </div>
+                                                <div id="jcollapsefour" class="collapse" data-bs-parent="#jaccordion">
+                                                    <div class="card-body">
+                                                        <li>Udpserver.java:</li>
+                                                        <pre class="codes" id="p4ja">
 package udpserver;
 import java.io.*;
 import java.net.*;
@@ -2729,9 +2728,9 @@ public static void main(String args[]) throws Exception{
 }
 }                                 
                                             </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p4ja')[0].textContent)">Copy</button>
-                                                            <li><br>Udpclient.java:</li>
-                                                            <pre class="codes" id="p4jb">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p4ja')[0].textContent)">Copy</button>
+                                                        <li><br>Udpclient.java:</li>
+                                                        <pre class="codes" id="p4jb">
 package udpclient;
 import java.io.*;
 import java.net.*;
@@ -2750,18 +2749,18 @@ public static void main(String args[ ] ) throws SocketException, IOException{
 } 
 }
                                             </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p4jb')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p4jb')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#jcollapsefive">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#jcollapsefive">
                                                     5. PROGRAM FOR SIMPLE RSA ALGORITHM TO ENCRYPT AND DECRYPT THE DATA
                                                 </a>
-                                                    </div>
-                                                    <div id="jcollapsefive" class="collapse" data-bs-parent="#jaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="p5j">
+                                                </div>
+                                                <div id="jcollapsefive" class="collapse" data-bs-parent="#jaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="p5j">
 package rsa;
 import java.util.Scanner;
 public class Rsa {
@@ -2857,18 +2856,18 @@ public static long gcd(long a, long b) {
 }
 }
                                         </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p5j')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p5j')[0].textContent)">Copy</button>
                                                     </div>
+                                                </div>
 
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#jcollapsesix">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#jcollapsesix">
                                                     6. CONGESTION CONTROL USING LEAKY BUCKET ALGORITHM
                                                 </a>
-                                                    </div>
-                                                    <div id="jcollapsesix" class="collapse" data-bs-parent="#jaccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="p6j">
+                                                </div>
+                                                <div id="jcollapsesix" class="collapse" data-bs-parent="#jaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="p6j">
 package leacky;
 import java.util.Scanner;
 public class Leacky { 
@@ -2916,30 +2915,30 @@ public static void main(String[] args) {
 } 
 }
                                         </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p6j')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p6j')[0].textContent)">Copy</button>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </p>
-                                    </ul>
-                                </div>
-                                <div class="tab-pane fade text-left text-light" id="vhdl" role="tabpanel" aria-labelledby="profile-tab">
-                                    <h3 class="none" style="font-size: 30px;">Verilog HDL</h3>
-                                    <span class="date-range code-font"><br>Lab Programmes for Verilog HDL</span>
-                                    <ul class="none">
-                                        <p class="none">
-                                            <div id="vaccordion">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#vcollapseone">
+                                        </div>
+                                    </p>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade text-left text-light" id="vhdl" role="tabpanel" aria-labelledby="profile-tab">
+                                <h3 class="none" style="font-size: 30px;">Verilog HDL</h3>
+                                <span class="date-range code-font"><br>Lab Programmes for Verilog HDL</span>
+                                <ul class="none">
+                                    <p class="none">
+                                        <div id="vaccordion">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#vcollapseone">
                                                     1.1. Verilog HDL Code To Realize 2 To 4 Decoder
                                                 </a>
-                                                    </div>
-                                                    <div id="vcollapseone" class="collapse" data-bs-parent="#vaccordion">
-                                                        <div class="card-body">
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p1vc">
+                                                </div>
+                                                <div id="vcollapseone" class="collapse" data-bs-parent="#vaccordion">
+                                                    <div class="card-body">
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p1vc">
 module decoder(y,i1,i0,e);
 output [3:0]y;
 input i1,i0;
@@ -2953,9 +2952,9 @@ nand g5(y[1],i1not,i0,enot);
 nand g6(y[2],i1,i0not,enot);
 nand g7(y[3],i1,i0,enot);
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p1vc')[0].textContent)">Copy</button>
-                                                            <li><br>Test Bench:</li>
-                                                            <pre class="codes" id="p1tb">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p1vc')[0].textContent)">Copy</button>
+                                                        <li><br>Test Bench:</li>
+                                                        <pre class="codes" id="p1tb">
 module decoder_tb;
 wire [3:0]y;
 reg e;
@@ -2970,10 +2969,10 @@ initial begin
 end
 endmodule
                                             </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p1tb')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p1tb')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <!--div class="card-header">
+                                                </div>
+                                                <!--div class="card-header">
                                         <a class="btn" data-bs-toggle="collapse" href="#collapstwo">
                                            Name
                                         </a>
@@ -2991,16 +2990,16 @@ code
                                             <button class="butt" onclick="copytext(document.querySelectorAll('#p2tb')[0].textContent)">Copy</button>
                                         </div>
                                     </div-->
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#vcollapsetwo">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#vcollapsetwo">
                                                     1.2. Verilog HDL Code For 8:3 Encoder (Without And With Priorities)
                                                 </a>
-                                                    </div>
-                                                    <div id="vcollapsetwo" class="collapse" data-bs-parent="#vaccordion">
-                                                        <div class="card-body">
-                                                            <li>Without Priority</li>
-                                                            <li><br>Verilog Code:</li>
-                                                            <pre class="codes" id="p2vc">
+                                                </div>
+                                                <div id="vcollapsetwo" class="collapse" data-bs-parent="#vaccordion">
+                                                    <div class="card-body">
+                                                        <li>Without Priority</li>
+                                                        <li><br>Verilog Code:</li>
+                                                        <pre class="codes" id="p2vc">
 module encoder(y,x,e);
 input e;
 input [7:0]x;
@@ -3026,9 +3025,9 @@ begin
     end
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p2vc')[0].textContent)">Copy</button>
-                                                            <li><br>Test Bench:</li>
-                                                            <pre class="codes" id="p2tb">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p2vc')[0].textContent)">Copy</button>
+                                                        <li><br>Test Bench:</li>
+                                                        <pre class="codes" id="p2tb">
 module encoder_tb;
 reg e;
 reg [7:0]x;
@@ -3048,10 +3047,10 @@ initial begin
     #10$stop;
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p2tb')[0].textContent)">Copy</button>
-                                                            <li><br>With Priority</li>
-                                                            <li><br>Verilog Code:</li>
-                                                            <pre class="codes" id="p2vcp">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p2tb')[0].textContent)">Copy</button>
+                                                        <li><br>With Priority</li>
+                                                        <li><br>Verilog Code:</li>
+                                                        <pre class="codes" id="p2vcp">
 module encoder(y,x,e);
 input e;
 input [7:0]x;
@@ -3077,9 +3076,9 @@ begin
     end
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p2vcp')[0].textContent)">Copy</button>
-                                                            <li><br>Test Bench:</li>
-                                                            <pre class="codes" id="p2tbp">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p2vcp')[0].textContent)">Copy</button>
+                                                        <li><br>Test Bench:</li>
+                                                        <pre class="codes" id="p2tbp">
 module encoder_tb;
 reg e;
 reg [7:0]x;
@@ -3099,18 +3098,18 @@ initial begin
     #10$stop;
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p2tbp')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p2tbp')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#vcollapsethree">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#vcollapsethree">
                                                     1.3 Verilog Code For 8:1 Multiplexer
                                                 </a>
-                                                    </div>
-                                                    <div id="vcollapsethree" class="collapse" data-bs-parent="#vaccordion">
-                                                        <div class="card-body">
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p3vc">
+                                                </div>
+                                                <div id="vcollapsethree" class="collapse" data-bs-parent="#vaccordion">
+                                                    <div class="card-body">
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p3vc">
 module muxx(y,i,e,s);
 input e;
 input [7:0]i;
@@ -3136,9 +3135,9 @@ begin
     end
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p3vc')[0].textContent)">Copy</button>
-                                                            <li><br>Test Bench:</li>
-                                                            <pre class="codes" id="p3tb">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p3vc')[0].textContent)">Copy</button>
+                                                        <li><br>Test Bench:</li>
+                                                        <pre class="codes" id="p3tb">
 module mux_tb;
 reg e;
 reg [7:0]i;
@@ -3162,10 +3161,10 @@ initial begin
     s=3'b111;#100;
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p3tb')[0].textContent)">Copy</button>
-                                                            <li><br>Using Else-If Statement</li>
-                                                            li>Verilog Code:</li>
-                                                            <pre class="codes" id="p3vcp">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p3tb')[0].textContent)">Copy</button>
+                                                        <li><br>Using Else-If Statement</li>
+                                                        li>Verilog Code:</li>
+                                                        <pre class="codes" id="p3vcp">
 module muxx(y,i,e,s);
 input e;
 input [7:0]i;
@@ -3194,9 +3193,9 @@ begin
         y=i[7];
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p3vcp')[0].textContent)">Copy</button>
-                                                            <li><br>Test Bench:</li>
-                                                            <pre class="codes" id="p3tbp">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p3vcp')[0].textContent)">Copy</button>
+                                                        <li><br>Test Bench:</li>
+                                                        <pre class="codes" id="p3tbp">
 module mux_tb;
 reg e;
 reg [7:0]i;
@@ -3220,19 +3219,19 @@ initial begin
     s=3'b111;#100;
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p3tbp')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p3tbp')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#vcollapsefour">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#vcollapsefour">
                                                     1.4 Verilog HDL Code For 4 Bit Binary To Gray Conversion
                                                 </a>
-                                                    </div>
-                                                    <div id="vcollapsefour" class="collapse" data-bs-parent="#vaccordion">
-                                                        <div class="card-body">
-                                                            <li>Using Data Flow</li>
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p4vc">
+                                                </div>
+                                                <div id="vcollapsefour" class="collapse" data-bs-parent="#vaccordion">
+                                                    <div class="card-body">
+                                                        <li>Using Data Flow</li>
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p4vc">
 module bingray(b,g);
 input [3:0]b;
 output [3:0]g;
@@ -3241,9 +3240,9 @@ assign g[2]=b[3]^b[2];
 assign g[1]=b[2]^b[1];
 assign g[0]=b[1]^b[0];
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p4vc')[0].textContent)">Copy</button>
-                                                            <li><br>Test Bench:</li>
-                                                            <pre class="codes" id="p4tb">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p4vc')[0].textContent)">Copy</button>
+                                                        <li><br>Test Bench:</li>
+                                                        <pre class="codes" id="p4tb">
 module bingray_tb;
 reg [3:0]b;
 wire [3:0]g;
@@ -3271,10 +3270,10 @@ begin
 end
 endmodule
                                             </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p4tb')[0].textContent)">Copy</button>
-                                                            <li><br>Using 1 Bit Gray To Binary, Adder, Subtractor</li>
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p4vcp">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p4tb')[0].textContent)">Copy</button>
+                                                        <li><br>Using 1 Bit Gray To Binary, Adder, Subtractor</li>
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p4vcp">
 module bingray(g,b);
 input [3:0] b;
 output [3:0] g;
@@ -3302,9 +3301,9 @@ output diff;
 assign diff = m ^ n ;
 endmodule
 </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p4vcp')[0].textContent)">Copy</button>
-                                                            <li><br>Test Bench:</li>
-                                                            <pre class="codes" id="p4tbp">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p4vcp')[0].textContent)">Copy</button>
+                                                        <li><br>Test Bench:</li>
+                                                        <pre class="codes" id="p4tbp">
 module bingray_tb;
 reg [3:0]b;
 wire [3:0]g;
@@ -3332,11 +3331,11 @@ begin
 end
 endmodule
                                             </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p4tbp')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p4tbp')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#vcollapsefive">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#vcollapsefive">
                                                     2. MODEL IN VERILOG FOR A FULL ADDER AND ADD FUNCTIONALITY TO
                                                     PERFORM
                                                     LOGICAL
@@ -3344,11 +3343,11 @@ endmodule
                                                     APPROPRIATE
                                                     INPUT PATTERNS TO VERIFY THE MODELED BEHAVIOUR.
                                                 </a>
-                                                    </div>
-                                                    <div id="vcollapsefive" class="collapse" data-bs-parent="#vaccordion">
-                                                        <div class="card-body">
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p5vc">
+                                                </div>
+                                                <div id="vcollapsefive" class="collapse" data-bs-parent="#vaccordion">
+                                                    <div class="card-body">
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p5vc">
 module full_adder(sum,carry,a,b,cin);
 input a,b,cin;
 output sum,carry;
@@ -3381,9 +3380,9 @@ input in1,in2,in3;
 output out;
 assign out=in1|in2|in3;
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p5vc')[0].textContent)">Copy</button>
-                                                            <li><br>Test Bench:</li>
-                                                            <pre class="codes" id="p5tb">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p5vc')[0].textContent)">Copy</button>
+                                                        <li><br>Test Bench:</li>
+                                                        <pre class="codes" id="p5tb">
 module full_adder_tb;
 reg a;
 reg b;
@@ -3407,18 +3406,18 @@ initial begin
     #100;    
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p5tb')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p5tb')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#vcollapsesix">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#vcollapsesix">
                                                     3. HDL CODE TO DESIGN 32 BIT ALU
                                                 </a>
-                                                    </div>
-                                                    <div id="vcollapsesix" class="collapse" data-bs-parent="#vaccordion">
-                                                        <div class="card-body">
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p6vc">
+                                                </div>
+                                                <div id="vcollapsesix" class="collapse" data-bs-parent="#vaccordion">
+                                                    <div class="card-body">
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p6vc">
 module alu(result,ack,a,b,opcode,en);
 input [2:0]opcode;
 input en;
@@ -3445,9 +3444,9 @@ begin
     ack=(en==1)?1:0;
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p6vc')[0].textContent)">Copy</button>
-                                                            <li><br>Test Bench:</li>
-                                                            <pre class="codes" id="p6tb">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p6vc')[0].textContent)">Copy</button>
+                                                        <li><br>Test Bench:</li>
+                                                        <pre class="codes" id="p6tb">
 module alu_tb;
 reg [31:0] a;
 reg [31:0] b;
@@ -3471,19 +3470,19 @@ initial begin
     #100;                                             
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p6tb')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p6tb')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#vcollapseseven">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#vcollapseseven">
                                                     4. WRITE VERILOG CODE FOR SR, D AND JK AND VERIFY THE FLIP FLOP.
                                                 </a>
-                                                    </div>
-                                                    <div id="vcollapseseven" class="collapse" data-bs-parent="#vaccordion">
-                                                        <div class="card-body">
-                                                            <li>SR Flip Flop</li>
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p7vcsr">
+                                                </div>
+                                                <div id="vcollapseseven" class="collapse" data-bs-parent="#vaccordion">
+                                                    <div class="card-body">
+                                                        <li>SR Flip Flop</li>
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p7vcsr">
 module SR(sr,clk,q,qb);
 input [1:0]sr;
 input clk;
@@ -3500,9 +3499,9 @@ begin
     qb=~q;
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p7vcsr')[0].textContent)">Copy</button>
-                                                            <li><br>Test Bench:</li>
-                                                            <pre class="codes" id="p7tbsr">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p7vcsr')[0].textContent)">Copy</button>
+                                                        <li><br>Test Bench:</li>
+                                                        <pre class="codes" id="p7tbsr">
 module SR_tb;
 reg [1:0] sr;
 reg clk;
@@ -3521,10 +3520,10 @@ initial begin
     #100;                                      
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p7tbsr')[0].textContent)">Copy</button>
-                                                            <li><br>JK Flip Flop</li>
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p7vcjk">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p7tbsr')[0].textContent)">Copy</button>
+                                                        <li><br>JK Flip Flop</li>
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p7vcjk">
 module JK(jk,clk,q,qb);
 input [1:0]jk;
 input clk;
@@ -3541,9 +3540,9 @@ begin
 qb=~q;
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p7vcjk')[0].textContent)">Copy</button>
-                                                            <li><br>Test Bench:</li>
-                                                            <pre class="codes" id="p7tbjk">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p7vcjk')[0].textContent)">Copy</button>
+                                                        <li><br>Test Bench:</li>
+                                                        <pre class="codes" id="p7tbjk">
 module JK_tb;
 reg [1:0] jk;
 reg clk;
@@ -3562,10 +3561,10 @@ clk = 1;jk = 00; #100;
 #100;
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p7tbjk')[0].textContent)">Copy</button>
-                                                            <li><br>D Flip Flop</li>
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p7vcd">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p7tbjk')[0].textContent)">Copy</button>
+                                                        <li><br>D Flip Flop</li>
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p7vcd">
 module D(q,qb,clk,d);
 input d,clk;
 output q,qb;
@@ -3579,9 +3578,9 @@ begin
     qb=~q;
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p7vcd')[0].textContent)">Copy</button>
-                                                            <li><br>Test Bench:</li>
-                                                            <pre class="codes" id="p7tbd">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p7vcd')[0].textContent)">Copy</button>
+                                                        <li><br>Test Bench:</li>
+                                                        <pre class="codes" id="p7tbd">
 module D_tb;
 reg d;
 reg clk;
@@ -3597,18 +3596,18 @@ initial begin
     #100;
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p7tbd')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p7tbd')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#vcollapseeight">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#vcollapseeight">
                                                     5. DESIGN OF FOUR BIT BCD COUNTERS
                                                 </a>
-                                                    </div>
-                                                    <div id="vcollapseeight" class="collapse" data-bs-parent="#vaccordion">
-                                                        <div class="card-body">
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p8vc">
+                                                </div>
+                                                <div id="vcollapseeight" class="collapse" data-bs-parent="#vaccordion">
+                                                    <div class="card-body">
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p8vc">
 module up_counte(q,rst,clk);
 input clk,rst;
 output[3:0]q;
@@ -3625,9 +3624,9 @@ begin
         q=4'b0000;
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p8vc')[0].textContent)">Copy</button>
-                                                            <li><br>Test Bench:</li>
-                                                            <pre class="codes" id="p8tb">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p8vc')[0].textContent)">Copy</button>
+                                                        <li><br>Test Bench:</li>
+                                                        <pre class="codes" id="p8tb">
 module up_counter_tb;
 reg rst;
 reg clk;
@@ -3646,11 +3645,11 @@ initial begin
 end
 endmodule
                                             </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p8tb')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p8tb')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#vcollapsenine">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#vcollapsenine">
                                                     6. VERILOG CODE FOR COUNTER WITH GIVEN INPUT CLOCK AND CHECK WHETHER
                                                     IT
                                                     WORKS AS
@@ -3658,11 +3657,11 @@ endmodule
                                                     THE
                                                     FUNCTIONALITY OF THE CODE
                                                 </a>
-                                                    </div>
-                                                    <div id="vcollapsenine" class="collapse" data-bs-parent="#vaccordion">
-                                                        <div class="card-body">
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p9vc">
+                                                </div>
+                                                <div id="vcollapsenine" class="collapse" data-bs-parent="#vaccordion">
+                                                    <div class="card-body">
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p9vc">
 module frequency_divider(clk,out_clk1,out_clk2,out_clk3,out_clk4);
 input clk;
 output out_clk1,out_clk2,out_clk3,out_clk4;
@@ -3692,9 +3691,9 @@ begin
         count&lt;=count+1;
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p9vc')[0].textContent)">Copy</button>
-                                                            <li><br>Test Bench:</li>
-                                                            <pre class="codes" id="p9tb">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p9vc')[0].textContent)">Copy</button>
+                                                        <li><br>Test Bench:</li>
+                                                        <pre class="codes" id="p9tb">
 module frequency_divider_tb;
 reg clk;
 wire out_clk1;
@@ -3708,18 +3707,18 @@ initial begin
     end
     always #30 clk=~clk;
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p9tb')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p9tb')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#vcollapseten">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#vcollapseten">
                                                     7. VERILOG CODE TO DESIGN CLOCK DIVIDER CIRCUIT
                                                 </a>
-                                                    </div>
-                                                    <div id="vcollapseten" class="collapse" data-bs-parent="#vaccordion">
-                                                        <div class="card-body">
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p10vc">
+                                                </div>
+                                                <div id="vcollapseten" class="collapse" data-bs-parent="#vaccordion">
+                                                    <div class="card-body">
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p10vc">
 module frequency_divider_(clk,c,out_clk);
 input clk;
 input [3:0] c;
@@ -3747,18 +3746,18 @@ begin
         count&lt;=count+1;
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p10vc')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p10vc')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#vcollapseeleven">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#vcollapseeleven">
                                                     8. WRITE HDL CODE TO CONTROL SPEED, DIRECTION OF DC MOTOR
                                                 </a>
-                                                    </div>
-                                                    <div id="vcollapseeleven" class="collapse" data-bs-parent="#vaccordion">
-                                                        <div class="card-body">
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p11vc">
+                                                </div>
+                                                <div id="vcollapseeleven" class="collapse" data-bs-parent="#vaccordion">
+                                                    <div class="card-body">
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p11vc">
 module dcmotor(clk,reset,dir,row,rly,pwm);
 input clk,reset,dir;
 input [3:0] row;
@@ -3804,18 +3803,18 @@ begin
 end
 assign rly=dir;
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p11vc')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p11vc')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#vcollapsetwelve">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#vcollapsetwelve">
                                                     9. HDL CODE TO CONTROL DIRECTION OF ROTATION OF STEPPER MOTOR
                                                 </a>
-                                                    </div>
-                                                    <div id="vcollapsetwelve" class="collapse" data-bs-parent="#vaccordion">
-                                                        <div class="card-body">
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p12vc">
+                                                </div>
+                                                <div id="vcollapsetwelve" class="collapse" data-bs-parent="#vaccordion">
+                                                    <div class="card-body">
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p12vc">
 module stepper(clk,reset, dipsw1, dipsw2, dipsw3, dout);
 input clk, reset, dipsw1, dipsw2, dipsw3;
 output reg[3:0]dout;
@@ -3868,11 +3867,11 @@ begin
         end
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p12vc')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p12vc')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#vcollapsethirteen">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#vcollapsethirteen">
                                                     10. INTERFACE A DAC TO FPGA AND WRITE VERILOG CODE TO GENERATE
                                                     SINEWAVE
                                                     OF
@@ -3884,11 +3883,11 @@ endmodule</pre>
                                                     AN
                                                     OSCILLOSCOPE
                                                 </a>
-                                                    </div>
-                                                    <div id="vcollapsethirteen" class="collapse" data-bs-parent="#vaccordion">
-                                                        <div class="card-body">
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p13vc">
+                                                </div>
+                                                <div id="vcollapsethirteen" class="collapse" data-bs-parent="#vaccordion">
+                                                    <div class="card-body">
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p13vc">
 module sine_wave_gen(Clk,data_out);
 input Clk;
 output [7:0] data_out;
@@ -3941,18 +3940,18 @@ begin
         i = 0;
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p13vc')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p13vc')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#vcollapsefourteen">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#vcollapsefourteen">
                                                     11. WRITE HDL CODE TO SIMULATE ELEVATOR OPERATION.
                                                 </a>
-                                                    </div>
-                                                    <div id="vollapsefourteen" class="collapse" data-bs-parent="#vaccordion">
-                                                        <div class="card-body">
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p14vc">
+                                                </div>
+                                                <div id="vollapsefourteen" class="collapse" data-bs-parent="#vaccordion">
+                                                    <div class="card-body">
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p14vc">
 module ctr(clk,reset,y,dir);
 input clk, reset;
 output [3:0] y;
@@ -3981,19 +3980,19 @@ begin
 end
 assign y=yb;
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p14vc')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p14vc')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#vcollapsefifteen">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#vcollapsefifteen">
                                                     12. Generating Triangle, Square and Ramp Waves
                                                 </a>
-                                                    </div>
-                                                    <div id="vcollapsefifteen" class="collapse" data-bs-parent="#vaccordion">
-                                                        <div class="card-body">
-                                                            <li>Triangle Wave</li>
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p15vct">
+                                                </div>
+                                                <div id="vcollapsefifteen" class="collapse" data-bs-parent="#vaccordion">
+                                                    <div class="card-body">
+                                                        <li>Triangle Wave</li>
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p15vct">
 module triangle_wave(clk,dac_out);
 input clk;
 output reg[7:0]dac_out;
@@ -4012,10 +4011,10 @@ begin
         dac_out=~(counter[7:0]);
 end
 endmodule</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p15vct')[0].textContent)">Copy</button>
-                                                            <li><br>Square Wave</li>
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p15vcs">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p15vct')[0].textContent)">Copy</button>
+                                                        <li><br>Square Wave</li>
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p15vcs">
 module square_wave(clk,dac_out);
 input clk;
 output reg[7:0]dac_out;
@@ -4035,10 +4034,10 @@ begin
 end
 endmodule
                                             </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p15vcs')[0].textContent)">Copy</button>
-                                                            <li><br>Square Wave</li>
-                                                            <li>Verilog Code:</li>
-                                                            <pre class="codes" id="p15vcr">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p15vcs')[0].textContent)">Copy</button>
+                                                        <li><br>Square Wave</li>
+                                                        <li>Verilog Code:</li>
+                                                        <pre class="codes" id="p15vcr">
 module ramp_wave(clk,dac_out);
 input clk;
 output reg[7:0]dac_out;
@@ -4055,15 +4054,15 @@ begin
 end
 endmodule
                                             </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p15vcr')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p15vcr')[0].textContent)">Copy</button>
                                                     </div>
-
                                                 </div>
+
                                             </div>
-                                        </p>
-                                    </ul>
-                                </div>
+                                        </div>
+                                    </p>
+                                </ul>
+                            </div>
 
 
 
@@ -4071,22 +4070,22 @@ endmodule
 
 
 
-                                <!--DSP STARTS-->
-                                <div class="tab-pane fade text-left text-light" id="dsp" role="tabpanel" aria-labelledby="profile-tab">
-                                    <h3 class="none" style="font-size: 30px;">DSP Programmes</h3>
-                                    <span class="date-range code-font"><br>Lab Programmes for DSP Lab</span>
-                                    <ul class="none">
-                                        <p class="none" style="font-size: 1.2em;">
-                                            <div id="paccordion">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#pcollapseOne">
+                            <!--DSP STARTS-->
+                            <div class="tab-pane fade text-left text-light" id="dsp" role="tabpanel" aria-labelledby="profile-tab">
+                                <h3 class="none" style="font-size: 30px;">DSP Programmes</h3>
+                                <span class="date-range code-font"><br>Lab Programmes for DSP Lab</span>
+                                <ul class="none">
+                                    <p class="none" style="font-size: 1.2em;">
+                                        <div id="paccordion">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#pcollapseOne">
                                                     1. Verification of sampling theorem (use interpolation function).
                                                 </a>
-                                                    </div>
-                                                    <div id="pcollapseOne" class="collapse" data-bs-parent="#paccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="p1">
+                                                </div>
+                                                <div id="pcollapseOne" class="collapse" data-bs-parent="#paccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="p1">
 import numpy as np
 import matplotlib.pyplot as plt
 from math import pi,sin,cos
@@ -4118,11 +4117,11 @@ plt.subplot(3,1,3)
 plt.plot(t,xr)
 plt.show()
                                         </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p1')[0].textContent)">Copy</button>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p1')[0].textContent)">Copy</button>
 
-                                                        </div>
                                                     </div>
-                                                    <!--div class="card-header">
+                                                </div>
+                                                <!--div class="card-header">
                                         <a class="btn" data-bs-toggle="collapse" href="#collapsetwo">
                                            name
                                         </a>
@@ -4134,16 +4133,16 @@ plt.show()
                                             </p>
                                         </div>
                                     </div-->
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#pcollapsetwo">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#pcollapsetwo">
                                                     2. Linear and circular convolution of two given sequences,
                                                     Commutative,
                                                     distributive and associative property of convolution.
                                                 </a>
-                                                    </div>
-                                                    <div id="pcollapsetwo" class="collapse" data-bs-parent="#paccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="p2">
+                                                </div>
+                                                <div id="pcollapsetwo" class="collapse" data-bs-parent="#paccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="p2">
 import numpy as np
 from operator import mod
 def comp_array(l,r):
@@ -4229,19 +4228,19 @@ print()
 x3=circ_conv(a,b)
 print("Circular Convolution is:",x3)
                                         </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p2')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p2')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#pcollapsethree">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#pcollapsethree">
                                                     3. Auto and cross correlation of two sequences and verification of
                                                     their
                                                     properties.
                                                 </a>
-                                                    </div>
-                                                    <div id="pcollapsethree" class="collapse" data-bs-parent="#paccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="p3">
+                                                </div>
+                                                <div id="pcollapsethree" class="collapse" data-bs-parent="#paccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="p3">
 import numpy as np
 import matplotlib.pyplot as plt
 def lc(x,h):
@@ -4298,17 +4297,17 @@ plt.xlabel("n-->")
 plt.ylabel("y[n]-->")
 plt.show()
                                         </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p3')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p3')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#pcollapsefour">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#pcollapsefour">
                                                     4. Solving a given difference equation.
                                                 </a>
-                                                    </div>
-                                                    <div id="pcollapsefour" class="collapse" data-bs-parent="#paccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="p4">
+                                                </div>
+                                                <div id="pcollapsefour" class="collapse" data-bs-parent="#paccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="p4">
 import numpy as np
 def filter(b,a,x):
 N=len(x)
@@ -4333,20 +4332,20 @@ print("b=",b)
 print("x=",x)
 print("Differential Equation Y=",y)
                                         </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p4')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p4')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#pcollapsefive">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#pcollapsefive">
                                                     5. Computation of N point DFT of a given sequence and to plot
                                                     magnitude
                                                     and
                                                     phase spectrum.
                                                 </a>
-                                                    </div>
-                                                    <div id="pcollapsefive" class="collapse" data-bs-parent="#paccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="p5">
+                                                </div>
+                                                <div id="pcollapsefive" class="collapse" data-bs-parent="#paccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="p5">
 import numpy as np
 import matplotlib.pyplot as plt
 from cmath import pi,exp
@@ -4386,18 +4385,18 @@ plt.ylabel("<X(k)-->")
 plt.stem(range(N),np.angle(X1))
 plt.show()
                                         </pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p5')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p5')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#pcollapsesix">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#pcollapsesix">
                                                     6. Verify DFT properties, DFT of square pulse and sinc function.
                                                 </a>
-                                                    </div>
-                                                    <div id="pcollapsesix" class="collapse" data-bs-parent="#paccordion">
-                                                        <div class="card-body">
-                                                            <li>Linearity Property</li>
-                                                            <pre class="codes" id="p6one">
+                                                </div>
+                                                <div id="pcollapsesix" class="collapse" data-bs-parent="#paccordion">
+                                                    <div class="card-body">
+                                                        <li>Linearity Property</li>
+                                                        <pre class="codes" id="p6one">
 import numpy as np
 a1=1
 a2=1
@@ -4410,9 +4409,9 @@ print("LHS=",lhs,"RHS=",rhs)
 print()
 if list(lhs) == list(rhs):
 print("Linearity Property Is Satisfied")</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p6one')[0].textContent)">Copy</button>
-                                                            <li><br>Parseval Property</li>
-                                                            <pre class="codes" id="p6two">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p6one')[0].textContent)">Copy</button>
+                                                        <li><br>Parseval Property</li>
+                                                        <pre class="codes" id="p6two">
 import numpy as np
 x=np.array([1,2,3,4])
 N=4
@@ -4422,9 +4421,9 @@ print("LHS=",lhs,"RHS=",rhs)
 print()
 if lhs == rhs:
 print("Parseval Is Satisfied")</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p6two')[0].textContent)">Copy</button>
-                                                            <li><br>Circular Convolution</li>
-                                                            <pre class="codes" id="p6three">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p6two')[0].textContent)">Copy</button>
+                                                        <li><br>Circular Convolution</li>
+                                                        <pre class="codes" id="p6three">
 import numpy as np
 x1=np.array([1,2,3,4])
 x2=np.array([1,1,1,1])
@@ -4434,9 +4433,9 @@ X=X1 * X2
 X=np.fft.ifft(X)
 X = np.real(X)
 print("Circular Convolution : X=",X)</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p6three')[0].textContent)">Copy</button>
-                                                            <li><br>Linear Convolution</li>
-                                                            <pre class="codes" id="p6four">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p6three')[0].textContent)">Copy</button>
+                                                        <li><br>Linear Convolution</li>
+                                                        <pre class="codes" id="p6four">
 import numpy as np
 x1=[1,2,3,4]
 x2=[1,1,1,1]
@@ -4453,9 +4452,9 @@ X = X1 * X2
 X = np.fft.ifft(X)
 X = np.real(X)
 print("X=",X)</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p6four')[0].textContent)">Copy</button>
-                                                            <li><br>Reactangular Pulse</li>
-                                                            <pre class="codes" id="p6five">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p6four')[0].textContent)">Copy</button>
+                                                        <li><br>Reactangular Pulse</li>
+                                                        <pre class="codes" id="p6five">
 import numpy as np
 import matplotlib.pyplot as plt
 fs=1000
@@ -4472,9 +4471,9 @@ plt.plot(t,x)
 plt.subplot(2,1,2)
 plt.plot(f,abs(y))
 plt.show()</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p6five')[0].textContent)">Copy</button>
-                                                            <li><br>Sinc Function</li>
-                                                            <pre class="codes" id="p6six">
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p6five')[0].textContent)">Copy</button>
+                                                        <li><br>Sinc Function</li>
+                                                        <pre class="codes" id="p6six">
 import numpy as np
 import matplotlib.pyplot as plt
 from math import pi
@@ -4490,17 +4489,17 @@ plt.plot(t,x)
 plt.subplot(2,1,2)
 plt.plot(f,abs(y))
 plt.show()</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p6six')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p6six')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#pcollapseseven">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#pcollapseseven">
                                                     7. Design and implementation of Low pass and High pass FIR filter
                                                 </a>
-                                                    </div>
-                                                    <div id="pcollapseseven" class="collapse" data-bs-parent="#paccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="p7">
+                                                </div>
+                                                <div id="pcollapseseven" class="collapse" data-bs-parent="#paccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="p7">
 import numpy as np
 import matplotlib.pyplot as plt
 from math import pi,sin,cos
@@ -4534,17 +4533,17 @@ plt.show()
 y1=np.int16(y)
 wavfile.write('result.wav',fs,y1)
 plt.show()</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p7')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p7')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#pcollapseeight">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#pcollapseeight">
                                                     8. Design and implementation of a digital IIR filter
                                                 </a>
-                                                    </div>
-                                                    <div id="pcollapseeight" class="collapse" data-bs-parent="#paccordion">
-                                                        <div class="card-body">
-                                                            <pre class="codes" id="p8">
+                                                </div>
+                                                <div id="pcollapseeight" class="collapse" data-bs-parent="#paccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="p8">
 import numpy as np
 import matplotlib.pyplot as plt
 import dspalgorithm as dsp
@@ -4567,17 +4566,17 @@ plt.plot(x)
 plt.subplot(2,1,2)
 plt.plot(y)
 plt.show()</pre>
-                                                            <button class="butt" onclick="copytext(document.querySelectorAll('#p8')[0].textContent)">Copy</button>
-                                                        </div>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#p8')[0].textContent)">Copy</button>
                                                     </div>
-                                                    <div class="card-header">
-                                                        <a class="btn" data-bs-toggle="collapse" href="#pcollapsenine">
+                                                </div>
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#pcollapsenine">
                                                     9. Obtain the Linear convolution of two sequences.
                                                 </a>
-                                                    </div>
-                                                    <div id="pcollapsenine" class="collapse" data-bs-parent="#paccordion">
-                                                        <div class="card-body">
-                                                            <code>
+                                                </div>
+                                                <div id="pcollapsenine" class="collapse" data-bs-parent="#paccordion">
+                                                    <div class="card-body">
+                                                        <code>
                                         <pre class="codes" id="p9">
 #include &lt;stdio.h&gt;
 int main(void)
