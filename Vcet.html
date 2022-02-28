@@ -121,7 +121,7 @@
                         <input id="searchbar" onkeyup="search_program()" type="text" name="search" placeholder="Search here">
                         <ul class="nav nav-pills flex-column" id="experienceTab" role="tablist">
                             <li class="allprograms">
-                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#cpc" role="tab" aria-controls="home" aria-selected="true">1st Year</a>
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" role="tab" aria-controls="home" aria-selected="true">1st Year</a>
                             </li>
                             <li class="allprograms">
                                 <a class="nav-link" id="profile-tab" data-toggle="tab" href="#cpc" role="tab" aria-controls="profile" aria-selected="false">CPC</a>
@@ -795,7 +795,7 @@ void insert()
     { 
         printf("\nEnter the element to be inserted :\t"); 
         scanf("%d",&elem); 
-        for(i=n-1;i>=pos;i--) //search for pos and shift the elements one position towards right
+        for(i=n-1;i>=pos;i--)
         {
             a[i+1]=a[i];
         }
