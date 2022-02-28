@@ -260,6 +260,7 @@ body {
     white-space: nowrap;
     width: auto;
     font-family: 'Poppins';
+    display: none;
 }
 pre {
     color: rgb(255, 255, 255);
@@ -352,11 +353,13 @@ pre {
     background-color: var(--theme-black);
     font-size: 20px;
     font-family: 'Poppins';
+    padding-bottom: 1em;
 }
 
 
 .tops {
-    font-size: 30px;
+    font-size: 40px;
+    font-weight:500;
 }
 
 .none ol img {
@@ -371,6 +374,7 @@ pre {
 .date-range {
     letter-spacing: 0.01em;
     color: var(--theme-gray);
+    font-size: 20px;
 }
 
 
@@ -540,6 +544,7 @@ ul a:hover::after {
     }
     .col-md-10 {
         display: contents;
+        width: 100%;
     }
     .row {
         width: auto;
