@@ -564,7 +564,7 @@ kbd kbd {
 
 pre {
     display: block;
-    font-size: 14px;
+    font-size: 87.56%;
     color: #212529
 }
 
@@ -4273,6 +4273,11 @@ input[type=submit].btn-block {
 }
 
 @media (max-width:575.98px) {
+    pre {
+        display: block;
+        font-size: 60%;
+        color: #212529
+    }
     .navbar-expand-sm>.container,
     .navbar-expand-sm>.container-fluid {
         padding-right: 0;
