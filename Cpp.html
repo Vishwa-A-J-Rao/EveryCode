@@ -95,11 +95,9 @@
                 <li class="u-nav-item "><a class="u-button-style u-nav-link " href="Java.html "
                     style="padding: 10px; ">Java</a>
                 </li>
-                <li class="u-nav-item "><a class="u-button-style u-nav-link " style="padding: 10px; ">C</a>
+                <li class="u-nav-item "><a class="u-button-style u-nav-link "  href="C.html " style="padding: 10px; ">C</a>
                 </li>
                 <li class="u-nav-item "><a class="u-button-style u-nav-link " href="Cpp.html " style="padding: 10px; ">C++</a>
-                </li>
-                <li class=" u-nav-item "><a class=" u-button-style u-nav-link " href="Verilog.html " style=" padding: 10px; ">Verilog</a>
                 </li>
                 <li class="u-nav-item "><a class="u-button-style u-nav-link " href="Vcet.html " padding: 10px;">VCET</a>
                         </li>
@@ -197,14 +195,14 @@
 
                             <div class="tab-pane fade show active text-left text-light" id="basic" role="tabpanel" aria-labelledby="home-tab">
 
-                                <p class="tops">Basics Of C...</p>
+                                <p class="tops">Basics Of C++...</p>
                                 <span class="date-range code-font">Let Us Learn Some Basics First</span>
                                 <ul class="none">
                                     <li class="none">
-                                        <span>Defination:<br></span> C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system.
+                                        <span>Defination:<br></span> C++ is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system.
                                         <span><br>Installation:</span><br>
                                         <ol>
-                                            <br>1. Download C executable file by clicking <a href="https://sourceforge.net/projects/embarcadero-devcpp/files/latest/download" style="color: #00A97F;">HERE</a> or visiting their official website <a href="https://www.bloodshed.net/"
+                                            <br>1. Download C++ executable file by clicking <a href="https://sourceforge.net/projects/embarcadero-devcpp/files/latest/download" style="color: #00A97F;">HERE</a> or visiting their official website <a href="https://www.bloodshed.net/"
                                                 style="color: #00A97F;">bloodshed</a><br> 2. Open the downloaded exe file<br>
                                             <img src="images/c1.png" alt=""><br> 3. Click On Next Button<br>
                                             <img src="images/c2.png" alt=""><br> 4. Wait Until Successful Installation.
@@ -231,51 +229,55 @@
                                     <li class="forcode">
                                         <span>Addition:</span>
                                         <pre class="codes" id="addition">
-#include &lt;stdio.h&gt;
-int main() {    
-    int num1, num2, sum;
-    printf("Enter two integers: ");
-    scanf("%d %d", &num1, &num2);
-    sum = num1 + num2;      
-    printf("%d + %d = %d", num1, num2, sum);
-    return 0;
+#include &lt;iostream&gt;
+using namespace std;
+int main() {
+  int a, b, sum;
+  cout << "Enter two integers: ";
+  cin >> a >> b;
+  sum = a + b;
+  cout << a << " + " <<  b << " = " << sum;     
+  return 0;
 }
 </pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#addition')[0].textContent)">Copy</button>
                                         <span><br><br>Subtraction:</span>
                                         <pre class="codes" id="subtraction">
-#include &lt;stdio.h&gt;
-int main() {    
-    int num1, num2, difference;
-    printf("Enter two integers: ");
-    scanf("%d %d", &num1, &num2);
-    difference = num1 - num2;      
-    printf("%d - %d = %d", num1, num2, difference);
-    return 0;
+#include &lt;iostream&gt;
+using namespace std;
+int main() {
+  int a, b, diff;
+  cout << "Enter two integers: ";
+  cin >> a >> b;
+  diff = a - b;
+  cout << a << " + " <<  b << " = " << diff;     
+  return 0;
 }</pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#subtraction')[0].textContent)">Copy</button>
                                         <span><br><br>Multiplication:</span>
                                         <pre class="codes" id="multiplication">
-#include &lt;stdio.h&gt;
-int main() {    
-    int num1, num2, multiplication;
-    printf("Enter two integers: ");
-    scanf("%d %d", &num1, &num2);
-    multiplication = num1 * num2;      
-    printf("%d * %d = %d", num1, num2, multiplication);
-    return 0;
+#include &lt;iostream&gt;
+using namespace std;
+int main() {
+  int a, b, mul;
+  cout << "Enter two integers: ";
+  cin >> a >> b;
+  mul = a * b;
+  cout << a << " + " <<  b << " = " << mul;     
+  return 0;
 }</pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#multiplication')[0].textContent)">Copy</button>
                                         <span><br><br>Division:</span>
                                         <pre class="codes" id="division">
-#include &lt;stdio.h&gt;
-int main() {    
-    int num1, num2, division;
-    printf("Enter two integers: ");
-    scanf("%d %d", &num1, &num2);
-    division = num1 / num2;      
-    printf("%d / %d = %d", num1, num2, division);
-    return 0;
+#include &lt;iostream&gt;
+using namespace std;
+int main() {
+  int a, b, div;
+  cout << "Enter two integers: ";
+  cin >> a >> b;
+  div = a / b;
+  cout << a << " + " <<  b << " = " << div;     
+  return 0;
 }</pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#divison')[0].textContent)">Copy</button>
                                     </li>
@@ -284,19 +286,22 @@ int main() {
 
                             <div class="tab-pane fade text-left text-light" id="p2" role="tabpanel" aria-labelledby="home-tab">
                                 <p class="tops">Squre Root</p>
-                                <span class="date-range code-font">C Code To Find Square Root Of A Number</span>
+                                <span class="date-range code-font">C++ Code To Find Square Root Of A Number</span>
                                 <ul class="none">
                                     <li class="forcode">
                                         <pre class="codes" id="cp2">
-#include &lt;math.h&gt;
-#include &lt;stdio.h&gt;
-int main() {
-   double num, squareroot;
-   printf("Enter a number: ");
-   scanf("%lf", &num);
-   squareroot = sqrt(num);
-   printf("Square root of %.2lf =  %.2lf", num, squareroot);
-   return 0;
+#include &lt;iostream&gt;
+#include&lt;math.h&gt;
+using namespace std;
+int main()
+{
+int num;
+float result;
+cout<<"Enter number: ";
+cin >> num;
+result = pow(num,0.5);
+cout << "Square root of given number is " << result;
+return 0;
 }</pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#p2')[0].textContent)">Copy</button>
                                     </li>
@@ -305,26 +310,31 @@ int main() {
 
                             <div class="tab-pane fade text-left text-light" id="p3" role="tabpanel" aria-labelledby="home-tab">
                                 <p class="tops">Positive, Negative or Zero</p>
-                                <span class="date-range code-font">C Code To Find If The Number Entered Is Positive,
+                                <span class="date-range code-font">C++ Code To Find If The Number Entered Is Positive,
                   Negative or Zero</span>
                                 <ul class="none">
                                     <li class="forcode">
 
                                         <pre class="codes" id="cp3">
-#include &lt;stdio.h&gt;
-int main() {
-    double num;
-    printf("Enter a number: ");
-    scanf("%lf", &num);
-    if (num &lt;= 0.0) {
-        if (num == 0.0)
-            printf("You entered 0");
-        else
-            printf("You entered a negative number");
-    } 
-    else
-        printf("You entered a positive number");
-    return 0;
+#include &lt;iostream&gt;
+#include &lt;conio.h&gt;
+using namespace std;
+int main()
+{
+    int num1;
+    cout << "Enter the number:";
+    cin>>num1;
+    if(num1>0){
+    cout << num1 <<" is a positive number";
+}
+else if(num1&lt;0){
+    cout<< num1 <<" is a Negative number";
+}
+else{
+    cout <<"You entered Zero";
+}
+getch();
+return 0;
 }</pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp3')[0].textContent)">Copy</button>
                                     </li>
@@ -339,26 +349,24 @@ int main() {
                                     <li class="forcode">
 
                                         <pre class="codes" id="cp4">
-#include &lt;math.h&gt;
-#include &lt;stdio.h&gt;
+#include &lt;iostream&gt;
+using namespace std;
 int main() {
-   int num, temp, remainder, n = 0;
-   float result = 0.0;
-   printf("Enter an integer: ");
-   scanf("%d", &num);
-   temp = num;
-   for (temp = num; temp != 0; ++n) {
-       temp /= 10;
-   }
-   for (temp = num; temp != 0; temp /= 10) {
-       remainder = temp % 10;
-      result += pow(remainder, n);
-   }
-   if ((int)result == num)
-    printf("%d is an Armstrong number.", num);
-   else
-    printf("%d is not an Armstrong number.", num);
-   return 0;
+    int num, originalNum, remainder, result = 0;
+    cout << "Enter a three-digit integer: ";
+    cin >> num;
+    originalNum = num;
+    while (originalNum != 0) {
+        remainder = originalNum % 10;
+        result += remainder * remainder * remainder;
+        originalNum /= 10;
+    }
+    if (result == num)
+        cout << num << " is an Armstrong number.";
+    else
+        cout << num << " is not an Armstrong number.";
+
+    return 0;
 }</pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp4')[0].textContent)">Copy</button>
                                     </li>
@@ -372,17 +380,19 @@ int main() {
                                     <li class="forcode">
 
                                         <pre class="codes" id="cp5">
-#include &lt;stdio.h&gt;
+#include &lt;iostream&gt;
+using namespace std;
 int main() {
-    int num;
-    printf("Enter an integer: ");
-    scanf("%d", &num);
-    if(num % 2 == 0)
-        printf("%d is even.", num);
-    else
-        printf("%d is odd.", num);
-    return 0;
-}</pre>
+  int n;
+  cout << "Enter an integer: ";
+  cin >> n;
+  if ( n % 2 == 0)
+    cout << n << " is even.";
+  else
+    cout << n << " is odd.";
+  return 0;
+}
+</pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp5')[0].textContent)">Copy</button>
                                     </li>
 
@@ -394,24 +404,29 @@ int main() {
                                 <ul class="none">
                                     <li class="forcode">
                                         <pre class="codes" id="cp6">
-#include &lt;stdio.h&gt;
+#include &lt;iostream&gt;
+using namespace std;
 int main() {
-   int year;
-   printf("Enter a year: ");
-   scanf("%d", &year);
-   if (year % 400 == 0) {
-      printf("%d is a leap year.", year);
-   }
-   else if (year % 100 == 0) {
-      printf("%d is not a leap year.", year);
-   }
-   else if (year % 4 == 0) {
-      printf("%d is a leap year.", year);
-   }
-   else {
-      printf("%d is not a leap year.", year);
-   }
-   return 0;
+  int year;
+  cout << "Enter a year: ";
+  cin >> year;
+  if (year % 4 == 0) {
+    if (year % 100 == 0) {
+      if (year % 400 == 0) {
+        cout << year << " is a leap year.";
+      }
+      else {
+        cout << year << " is not a leap year.";
+      }
+    }
+    else {
+      cout << year << " is a leap year.";
+    }
+  }
+  else {
+    cout << year << " is not a leap year.";
+  }
+  return 0;
 }
 </pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp6')[0].textContent)">Copy</button>
@@ -425,20 +440,20 @@ int main() {
                                 <ul class="none">
                                     <li class="forcode">
                                         <pre class="codes" id="cp7">
-#include &lt;stdio.h&gt;
-int main() {
-    int base, exp;
-    long double result = 1.0;
-    printf("Enter a base number: ");
-    scanf("%d", &base);
-    printf("Enter an exponent: ");
-    scanf("%d", &exp);
-
-    while (exp != 0) {
+#include &lt;iostream&gt;
+using namespace std;
+int main() 
+{
+    int exponent;
+    float base, result = 1;
+    cout << "Enter base and exponent respectively:  ";
+    cin >> base >> exponent;
+    cout << base << "^" << exponent << " = ";
+    while (exponent != 0) {
         result *= base;
-        --exp;
+        --exponent;
     }
-    printf("Answer = %.0Lf", result);
+    cout << result;
     return 0;
 }
 </pre>
@@ -454,21 +469,21 @@ int main() {
                                     <li class="forcode">
 
                                         <pre class="codes" id="cp8">
-#include &lt;stdio.h&gt;
+#include &lt;iostream&gt;
+using namespace std;
 int main() {
-  int i, n;
-  int t1 = 0, t2 = 1;
-  int nextTerm = t1 + t2;
-  printf("Enter the number of terms: ");
-  scanf("%d", &n);
-  printf("Fibonacci Series: %d, %d, ", t1, t2);
-  for (i = 3; i &lt;= n; ++i) {
-    printf("%d, ", nextTerm);
-    t1 = t2;
-    t2 = nextTerm;
-    nextTerm = t1 + t2;
-  }
-  return 0;
+    int t1 = 0, t2 = 1, nt = 0, n;
+    cout << "Enter a positive number: ";
+    cin >> n;
+    cout << "Fibonacci Series: " << t1 << ", " << t2 << ", ";
+    nt = t1 + t2;
+    while(nt <= n) {
+        cout << nt << ", ";
+        t1 = t2;
+        t2 = nt;
+        nt = t1 + t2;
+    }
+    return 0;
 }
 </pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp8')[0].textContent)">Copy</button>
@@ -482,21 +497,26 @@ int main() {
                                 <ul class="none">
                                     <li class="forcode">
                                         <pre class="codes" id="cp9">
-#include &lt;stdio.h&gt;
-int main() {
-    int n1, n2, max;
-    printf("Enter two positive integers: ");
-    scanf("%d %d", &n1, &n2);
-    max = (n1 > n2) ? n1 : n2;
-    while (1) {
-        if (max % n1 == 0 && max % n2 == 0) {
-            printf("The LCM of %d and %d is %d.", n1, n2, max);
-            break;
-        }
-        ++max;
-    }
-    return 0;
-}
+#include &lt;iostream&gt;  
+using namespace std;  
+int main()  
+{  
+    int num1, num2, lcm, gcd, temp;  
+    cout <<" Enter the first and second number: ";  
+    cin >> num1 >> num2;   
+    int a = num1;  
+    int b = num2;     
+    while (num2 != 0)  
+    {  
+        temp = num2;  
+        num2 = num1 % num2;  
+        num1 = temp;  
+    }  
+    gcd = num1;  
+    lcm = (a * b) / gcd;  
+    cout << "LCM of " << a << " and " << b << " = " << lcm;  
+    return 0;  
+} 
 </pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp9')[0].textContent)">Copy</button>
                                     </li>
@@ -508,26 +528,23 @@ int main() {
                                 <ul class="none">
                                     <li class="forcode">
                                         <pre class="codes" id="cp10">
-#include &lt;stdio.h&gt;
-int main()
-{
-    int i, num1, num2, min, hcf=1;
-    printf("Enter any two numbers to find HCF: ");
-    scanf("%d%d", &num1, &num2);
-    min = (num1&lt;num2) ? num1 : num2;
-    for(i=1; i&lt;=min; i++)
-    {
-        if(num1%i==0 && num2%i==0)
-        {
-            hcf = i;
-        }
-    }
-    printf("HCF of %d and %d = %d\n", num1, num2, hcf);
-    return 0;
+#include &lt;iostream&gt;
+using namespace std;
+int main() {
+  int n1, n2;
+  cout << "Enter two numbers: ";
+  cin >> n1 >> n2;
+  while(n1 != n2) {
+    if(n1 > n2)
+      n1 -= n2;
+    else
+      n2 -= n1;
+  }
+  cout << "HCF = " << n1;
+  return 0;
 }</pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp10')[0].textContent)">Copy</button>
                                     </li>
-
                                 </ul>
                             </div>
                             <div class="tab-pane fade text-left text-light" id="p11" role="tabpanel" aria-labelledby="home-tab">
@@ -537,17 +554,18 @@ int main()
                                     <li class="forcode">
 
                                         <pre class="codes" id="cp11">
-#include&lt;stdio.h&gt;  
-int main()    
-{    
- int i,fact=1,num;    
- printf("Enter a num: ");    
-  scanf("%d",&num);    
-    for(i=1;i&lt;=num;i++){    
-      fact=fact*i;    
-  }    
-  printf("Factorial of %d is: %d",num,fact);    
-return 0;  
+#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int n;
+    long double factorial = 1.0;
+    cout << "Enter a positive integer: ";
+    cin >> n;
+        for(int i = 1; i <= n; ++i) {
+            factorial *= i;
+        }
+        cout << "Factorial of " << n << " = " << factorial;
+    return 0;
 }   
 </pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp11')[0].textContent)">Copy</button>
@@ -562,21 +580,24 @@ return 0;
                                     <li class="forcode">
 
                                         <pre class="codes" id="cp12">
-#include &lt;stdio.h&gt;
-int main() {
-  int n, reversed = 0, remainder, original;
-    printf("Enter an integer: ");
-    scanf("%d", &n);
-    original = n;
-    while (n != 0) {
-        remainder = n % 10;
-        reversed = reversed * 10 + remainder;
-        n /= 10;
-    }
-    if (original == reversed)
-        printf("%d is a palindrome.", original);
-    else
-        printf("%d is not a palindrome.", original);
+#include &lt;iostream&gt;
+using namespace std;
+int main()
+{
+     int n, num, digit, rev = 0;
+     cout << "Enter a positive number: ";
+     cin >> num;
+     n = num;
+     do
+     {
+         digit = num % 10;
+         rev = (rev * 10) + digit;
+         num = num / 10;
+     } while (num != 0);
+     if (n == rev)
+         cout << "The number is a palindrome.";
+     else
+         cout << "The number is not a palindrome.";
     return 0;
 }</pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp12')[0].textContent)">Copy</button>
@@ -591,25 +612,27 @@ int main() {
                                     <li class="forcode">
 
                                         <pre class="codes" id="cp13">
-#include &lt;stdio.h&gt;
-int main() {
-  int n, i, flag = 0;
-  printf("Enter a positive integer: ");
-  scanf("%d", &n);
-  if (n == 0 || n == 1)
-    flag = 1;
-  for (i = 2; i &lt;= n / 2; ++i) {
-    if (n % i == 0) {
-      flag = 1;
-      break;
-    }
-  }
-  if (flag == 0)
-    printf("%d is a prime number.", n);
-  else
-    printf("%d is not a prime number.", n);
-  return 0;
-}</pre>
+#include &lt;iostream&gt;  
+using namespace std;  
+int main()  
+{  
+  int n, i, m=0, temp=0;  
+  cout << "Enter the Number to check Prime: ";  
+  cin >> n;  
+  m=n/2;  
+  for(i = 2; i <= m; i++)  
+  {  
+      if(n % i == 0)  
+      {  
+          cout << "It is not a Prime Number" << endl;  
+          temp=1;  
+          break;  
+      }  
+  }  
+  if (temp==0)  
+      cout << "Number is Prime." << endl;  
+  return 0;  
+}  </pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp13')[0].textContent)">Copy</button>
                                     </li>
 
@@ -622,19 +645,21 @@ int main() {
                                     <li class="forcode">
 
                                         <pre class="codes" id="cp14">
-#include &lt;stdio.h&gt;
+#include &lt;iostream&gt;
+using namespace std;
 int main()
 {
-	int a, b;
-	printf("Enter Value of a ");
-	scanf("%d", &a);
-	printf("\nEnter Value of b ");
-	scanf("%d", &b);
-	int temp = a;
-	a = b;
-	b = temp;
-	printf("\nAfter Swapping: a = %d, b = %d", a, b);
-	return 0;
+	int a,b;
+    cout << "Enter Two Numbers To Be Swapped:";
+    cin >> a >> b;
+    cout << "Before swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+    a = a ^ b;
+    b = a ^ b;
+    a = a ^ b;
+    cout << "\nAfter swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+    return 0;
 }
 </pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp14')[0].textContent)">Copy</button>
@@ -649,16 +674,25 @@ int main()
                                     <li class="forcode">
 
                                         <pre class="codes" id="cp15">
-#include &lt;stdio.h&gt;  
-#include &lt;string.h&gt;  
-int main()  
-{  
-    char str[100]; 
-    printf (" \n Enter a string to be reversed: ");  
-    scanf ("%s", str);  
-    printf (" \n After the reverse of a string: %s ", strrev(str));  
-    return 0;  
-}  </pre>
+#include&lt;iostream&gt;
+#include&lt;string.h&gt;
+using namespace std;
+int main ()
+{
+    char str[50], temp;
+    int i, j;
+    cout << "Enter a string : ";
+    gets(str);
+    j = strlen(str) - 1;
+    for (i = 0; i < j; i++,j--)
+    {
+        temp = str[i];
+        str[i] = str[j];
+        str[j] = temp;
+    }
+    cout << "Reverse string : " << str;
+    return 0;
+} </pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp15')[0].textContent)">Copy</button>
                                     </li>
 
@@ -671,22 +705,23 @@ int main()
                                     <li class="forcode">
 
                                         <pre class="codes" id="cp16">
-#include &lt;ctype.h&gt;
-#include &lt;stdio.h&gt;
-int main() {
-   char s;
-   int lowercase_vowel, uppercase_vowel;
-   printf("Enter an alphabet: ");
-   scanf("%c", &s);
-   lowercase_vowel = (s == 'a' || s == 'e' || s == 'i' || s == 'o' || s == 'u');
-   uppercase_vowel = (s == 'A' || s == 'E' || s == 'I' || s == 'O' || s == 'U');
-   if (!isalpha(s))
-      printf("Not an alphabetic character.");
-   else if (lowercase_vowel || uppercase_vowel)
-      printf("%c is a vowel.", s);
-   else
-      printf("%s is a consonant.", s);
-   return 0;
+#include&lt;iostream&gt;
+using namespace std;
+int main()
+{
+    char c;
+    cout << "Enter an alphabet: "; 
+    cin >> c;
+    if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'||
+    c=='A'||c=='E'||c=='I'||c=='O'||c=='U')
+    {
+        cout << c << " is a vowel";
+    }
+    else
+    {
+        cout << c << " is a consonant";
+    }
+    return 0;
 }</pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp16')[0].textContent)">Copy</button>
                                     </li>
@@ -700,15 +735,16 @@ int main() {
                                     <li class="forcode">
 
                                         <pre class="codes" id="cp17">
-#include &lt;stdio.h&gt;
+#include &lt;iostream&gt;
+using namespace std;
 int main() {
-    int n, i, sum = 0;
-    printf("Enter a positive integer: ");
-    scanf("%d", &n);
-    for (i = 1; i &lt;= n; ++i) {
+    int n, sum = 0;
+    cout << "Enter a positive integer: ";
+    cin >> n;
+    for (int i = 1; i <= n; ++i) {
         sum += i;
     }
-    printf("Sum = %d", sum);
+    cout << "Sum = " << sum;
     return 0;
 }
 </pre>
@@ -724,25 +760,22 @@ int main() {
                                     <li class="forcode">
 
                                         <pre class="codes" id="cp18">
-#include &lt;stdio.h&gt;
+#include&lt;iostream&gt;
+using namespace std;
 int main()
-{
-    char ch;
-    printf("Enter any character: ");
-    scanf("%c", &ch);
-    if(ch >= 'A' && ch &lt;= 'Z')
-    {
-        printf("'%c' is uppercase alphabet.", ch);
-    }
-    else if(ch >= 'a' && ch &lt;= 'z')
-    {
-        printf("'%c' is lowercase alphabet.", ch);
-    }
-    else
-    {
-        printf("'%c' is not an alphabet.", ch);
-    }
-    return 0;
+{  
+char ch;
+cout << "Enter any character: ";
+cin>>ch;
+if(ch>=65&&ch<=90)
+cout << endl << "You entered an uppercase character";
+else if(ch>=48&&ch<=57)
+cout << endl << "You entered a digit";
+else if(ch>=97&&ch<=122)
+cout << endl << "You entered a lowercase character";
+else
+cout << endl << "You entered a special character";
+return 0;
 }</pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp18')[0].textContent)">Copy</button>
                                     </li>
@@ -756,18 +789,19 @@ int main()
                                     <li class="forcode">
 
                                         <pre class="codes" id="cp19">
-#include &lt;stdio.h&gt;
+#include&lt;iostream&gt;
+using namespace std;
 int main()
 {
-    int i, n;
-    printf("Enter any number: ");
-    scanf("%d", &n);
-    printf("Natural numbers from 1 to %d : \n", n);
-    for(i=1; i&lt;=n; i++)
-    {
-        printf("%d\n", i);
-    }
-    return 0;
+	int number;	
+	cout << "Enter Any Number:  ";
+	cin >> number;	
+	cout << "List of Natural Numbers from 1 to " << number << " are\n"; 
+	for(int i = 1; i <= number; i++)
+  	{
+		cout << i <<" ";
+  	}		
+ 	return 0;
 }</pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp19')[0].textContent)">Copy</button>
                                     </li>
@@ -781,28 +815,30 @@ int main()
                                     <li class="forcode">
 
                                         <pre class="codes" id="cp20">
-#include &lt;stdio.h&gt;
-int main(){
-    int arr[50], num, x, y, temp;    
-    printf("Please Enter the Number of Elements you want in the array: ");
-    scanf("%d", &num);    
-    printf("Please Enter the Value of Elements: ");
-    for(x = 0; x &lt; num; x++)
-        scanf("%d", &arr[x]);
-    for(x = 0; x &lt; num - 1; x++){       
-        for(y = 0; y &lt; num - x - 1; y++){          
-            if(arr[y] > arr[y + 1]){
-                temp = arr[y];
-                arr[y] = arr[y + 1];
-                arr[y + 1] = temp;
-            }
-        }
-    }
-    printf("Array after implementing bubble sort: ");
-    for(x = 0; x &lt; num; x++){
-        printf("%d  ", arr[x]);
-    }
-    return 0;
+#include&lt;iostream&gt; 
+using namespace std; 
+int main()
+{
+int a[50],n,i,j,temp;
+cout << "Enter the size of array: ";
+cin>>n;
+cout << "Enter the array elements: "; 
+for(i=0;i&lt;n;++i)
+cin>>a[i];
+for(i=1;i&lt;n;++i)
+{
+for(j=0;j<(n-i);++j)
+if(a[j]>a[j+1])
+{
+temp=a[j];
+a[j]=a[j+1];
+a[j+1]=temp;
+}
+}
+cout<<"Array after bubble sort:";
+for(i=0;i&lt;n;++i)
+cout << " " << a[i];
+return 0;
 }</pre>
                                         <button class="butt" onclick="copytext(document.querySelectorAll('#cp20')[0].textContent)">Copy</button>
                                     </li>
@@ -855,7 +891,7 @@ int main(){
     <footer class="u-align-center u-black u-clearfix u-footer u-footer" id="sec-670b">
         <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
             <p class="u-small-text u-text u-text-variant u-text-1">Copyrights&nbsp;&nbsp;<span class="u-file-icon u-icon"><img
-            src="images/531292.png" alt=""></span> 2022 by EveryCode<br>All Rights Reserved
+            src="images/531292.png" alt=""></span> 2022 by Vishwa<br>All Rights Reserved
             </p>
         </div>
     </footer>

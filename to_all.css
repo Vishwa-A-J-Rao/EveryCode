@@ -575,4 +575,7 @@ ul a:hover::after {
     .p-5 {
         margin-right: 2em;
     }
+    #experienceTab.nav-pills {
+        max-height: 50vh;
+    }
 }
