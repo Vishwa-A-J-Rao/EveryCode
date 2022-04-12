@@ -4275,7 +4275,7 @@ input[type=submit].btn-block {
 @media (max-width:575.98px) {
     pre {
         display: block;
-        font-size: 60%;
+        font-size: 14px;
         color: #212529
     }
     .navbar-expand-sm>.container,
