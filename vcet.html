@@ -255,6 +255,7 @@ else
                                                     </div>
                                                 </div>
 
+                        
                                                 <div class="card-header">
                                                     <a class="btn" data-bs-toggle="collapse" href="#cpccollapsethree">
                                                     3. Write a program to read the name of the user, the number of units
@@ -323,7 +324,7 @@ printf("Enter the element to be searched\n");
 scanf("%d",&key);
 low=0;
 high=n-1;
-while(low<=high)
+while(low&lt;=high)
 {
     mid=(low+high)/2;
     if(key == a[mid])
@@ -906,18 +907,18 @@ void pattern_match()
         printf("\nThe RESULTANT string is:%s\n " ,ans);
     }
 }</pre>
-                                                        <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp2')[0].textContent) ">Copy</button>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll( '#dslp2')[0].textContent) ">Copy</button>
                                                     </div>
                                                 </div>
 
-                                                <div class="card-header ">
-                                                    <a class="btn " data-bs-toggle="collapse " href="#dslcollapsethree ">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#dslcollapsethree">
                                                     3. SIMULATING STACK OPERATIONS TO VERIFY PALINDROME
                                                 </a>
                                                 </div>
-                                                <div id="dslcollapsethree " class="collapse " data-bs-parent="#dslaccordion ">
-                                                    <div class="card-body ">
-                                                        <pre class="codes " id="dslp3 ">
+                                                <div id="dslcollapsethree" class="collapse" data-bs-parent="#dslaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="dslp3">
 #include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
 int stack[6],rev[6];
@@ -1014,18 +1015,18 @@ int pali()
     }
     return flag;
 }</pre>
-                                                        <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp3')[0].textContent) ">Copy</button>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll( '#dslp3')[0].textContent)">Copy</button>
                                                     </div>
                                                 </div>
 
                                                 <div class="card-header ">
-                                                    <a class="btn " data-bs-toggle="collapse " href="#dslcollapsefour ">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#dslcollapsefour">
                                                     4. INFIX EXPRESSION TO POSTFIX EXPRESSION
                                                 </a>
                                                 </div>
-                                                <div id="dslcollapsefour " class="collapse " data-bs-parent="#dslaccordion ">
-                                                    <div class="card-body ">
-                                                        <pre class="codes " id="dslp4 ">
+                                                <div id="dslcollapsefour" class="collapse" data-bs-parent="#dslaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="dslp4">
 #define size 50 /* size of stack */
 #include &lt;ctype.h&gt;
 #include &lt;stdio.h&gt;
@@ -1090,18 +1091,18 @@ void main() /* main program */
     pofx[k] = '\0'; /* make pofx as valid string */
     printf("\n\n Given infix expression: %s\n postfix expression is: %s\n ", infx, pofx);
 }</pre>
-                                                        <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp4')[0].textContent) ">Copy</button>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll( '#dslp4')[0].textContent)">Copy</button>
                                                     </div>
                                                 </div>
 
-                                                <div class="card-header ">
-                                                    <a class="btn " data-bs-toggle="collapse " href="#dslcollapsefive ">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#dslcollapsefive">
                                                     5. SUFFIX EXPRESSION EVALUATION AND TOWERS OF HANOI PROBLEM
                                                 </a>
                                                 </div>
-                                                <div id="dslcollapsefive " class="collapse " data-bs-parent="#dslaccordion ">
-                                                    <div class="card-body ">
-                                                        <pre class="codes " id="dslp5 ">
+                                                <div id="dslcollapsefive" class="collapse" data-bs-parent="#dslaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="dslp5">
 #include&lt;ctype.h&gt;
 #include&lt;stdio.h&gt;
 float stack[20];
@@ -1205,18 +1206,18 @@ void towers(int num, char frompeg, char topeg, char auxpeg)
     printf("\n move disk %d from peg %c to peg %c ", num, frompeg, topeg); 
     towers(num - 1, auxpeg, topeg, frompeg); 
 }</pre>
-                                                        <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp5')[0].textContent) ">Copy</button>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#dslp5')[0].textContent)">Copy</button>
                                                     </div>
                                                 </div>
 
-                                                <div class="card-header ">
-                                                    <a class="btn " data-bs-toggle="collapse " href="#dslcollapsesix ">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#dslcollapsesix">
                                                     6. SIMULATING CIRCULAR QUEUE USING ARRAY
                                                 </a>
                                                 </div>
-                                                <div id="dslcollapsesix " class="collapse " data-bs-parent="#dslaccordion ">
-                                                    <div class="card-body ">
-                                                        <pre class="codes " id="dslp6 ">
+                                                <div id="dslcollapsesix" class="collapse" data-bs-parent="#dslaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="dslp6">
 #include &lt;string.h&gt;
 #include &lt;stdio.h&gt;
 #define SIZE 5
@@ -1296,18 +1297,18 @@ void CQ_Display()
         }
     }
 }</pre>
-                                                        <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp6')[0].textContent) ">Copy</button>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#dslp6')[0].textContent)">Copy</button>
                                                     </div>
                                                 </div>
 
-                                                <div class="card-header ">
-                                                    <a class="btn " data-bs-toggle="collapse " href="#dslcollapseseven ">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#dslcollapseseven">
                                                     7. SIMULATING STACK AND QUEUE USING LINKED LIST
                                                 </a>
                                                 </div>
-                                                <div id="dslcollapseseven " class="collapse " data-bs-parent="#dslaccordion ">
-                                                    <div class="card-body ">
-                                                        <pre class="codes " id="dslp7 ">
+                                                <div id="dslcollapseseven" class="collapse" data-bs-parent="#dslaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="dslp7">
 #include&lt;stdio.h&gt;
 #include&lt;stdlib.h&gt;
 #include&lt;string.h&gt;
@@ -1481,18 +1482,18 @@ void main()
         }
     }
 }</pre>
-                                                        <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp7')[0].textContent) ">Copy</button>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#dslp7')[0].textContent)">Copy</button>
                                                     </div>
                                                 </div>
 
-                                                <div class="card-header ">
-                                                    <a class="btn " data-bs-toggle="collapse " href="#dslcollapseeight ">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#dslcollapseeight">
                                                     8. EMPLOYEE DATA MAINTENANCE USING DOUBLY LINKED LIST
                                                 </a>
                                                 </div>
-                                                <div id="dslcollapseeight " class="collapse " data-bs-parent="#dslaccordion ">
-                                                    <div class="card-body ">
-                                                        <pre class="codes " id="dslp8 ">
+                                                <div id="dslcollapseeight" class="collapse" data-bs-parent="#dslaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="dslp8">
 #include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
 #include &lt;string.h&gt;
@@ -1726,18 +1727,18 @@ void del_end()
         }
     }
 }</pre>
-                                                        <button class="butt " onclick="copytext(document.querySelectorAll( '#dslp8')[0].textContent) ">Copy</button>
+                                                        <button class="butt" onclick="copytext(document.querySelectorAll('#dslp8')[0].textContent)">Copy</button>
                                                     </div>
                                                 </div>
 
-                                                <div class="card-header ">
-                                                    <a class="btn " data-bs-toggle="collapse " href="#dslcollapsenine ">
+                                                <div class="card-header">
+                                                    <a class="btn" data-bs-toggle="collapse" href="#dslcollapsenine">
                                                     9. POLYNOMIAL EVALUATION USING SINGLY CIRCULAR LIST
                                                 </a>
                                                 </div>
-                                                <div id="dslcollapsenine " class="collapse " data-bs-parent="#dslaccordion ">
-                                                    <div class="card-body ">
-                                                        <pre class="codes " id="dslp9 ">
+                                                <div id="dslcollapsenine" class="collapse" data-bs-parent="#dslaccordion">
+                                                    <div class="card-body">
+                                                        <pre class="codes" id="dslp9">
 #include&lt;stdio.h&gt;
 #include&lt;stdlib.h&gt;
 #include&lt;math.h&gt;
